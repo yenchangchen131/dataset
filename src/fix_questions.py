@@ -20,7 +20,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 BASE_DIR = Path(__file__).parent.parent
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
-MODEL = "gpt-4o-mini"
+MODEL = "gpt-4.1"
 
 # 設定標準輸出編碼為 utf-8 (避免 Windows console error)
 if sys.stdout.encoding != 'utf-8':
@@ -35,7 +35,7 @@ def save_json(data: list[dict], filepath: Path) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def generate_question(statement: str, answer: str, context: str) -> str:
-    """使用 GPT-4o-mini 生成中文問句"""
+    """使用 GPT-4.1 生成中文問句"""
     
     prompt = f"""
 你是一個專業的資料集編輯。

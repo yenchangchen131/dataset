@@ -1,7 +1,6 @@
 """
 翻譯處理腳本 (多執行緒並行版)
-使用 GPT-4o-mini 將英文資料翻譯成繁體中文。
-
+使用 GPT-4.1
 輸入：
 - data/processed/queries_raw.json
 - data/processed/corpus_raw.json
@@ -33,7 +32,7 @@ BASE_DIR = Path(__file__).parent.parent
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
 # 翻譯設定
-MODEL = "gpt-4o-mini"
+MODEL = "gpt-4.1"
 MAX_WORKERS = 20  # 並行執行緒數
 MAX_RETRIES = 3   # 最大重試次數
 
@@ -53,7 +52,7 @@ def save_json(data: list[dict], filepath: Path) -> None:
 
 def translate_text(text: str, context_type: str = "general") -> str:
     """
-    使用 GPT-4o-mini 翻譯單一文本
+    使用 GPT-4.1 翻譯單一文本
     """
     if not text or not text.strip():
         return text

@@ -201,8 +201,8 @@
   },
   {
     "question_id": "358f37ed-7357-534b-b7c7-ab30886c0c2b",
-    "question": "除了「I'm Not in Love」之外，Eric Stewart 和 Graham Gouldman 的樂隊在1975年專輯中的另一首單曲是什麼？",
-    "gold_answer": "生活就像一碗雜菜湯",
+    "question": "除了〈I'm Not in Love〉之外，Eric Stewart（艾瑞克·史都華）和Graham Gouldman（葛拉漢·古德曼）所屬樂團1975年專輯的另一首單曲是什麼？",
+    "gold_answer": "人生如雜燴湯 (Life Is a Minestrone)",
     "gold_doc_ids": [
       "9ffd3359-2d2d-5022-b8ed-5986a16c2085",
       "990225d0-0517-5b51-9473-83646ca3d8bb"
@@ -212,8 +212,8 @@
   },
   {
     "question_id": "cb63fab6-99c7-57e1-b9dc-41a2dbe31c53",
-    "question": "誰是Maroon 5第六張錄音室專輯的主唱？",
-    "gold_answer": "亞當·萊文 (Adam Levine)",
+    "question": "誰是魔力紅（Maroon 5）第六張錄音室專輯的主唱？",
+    "gold_answer": "亞當·李維恩（Adam Levine）",
     "gold_doc_ids": [
       "d6175e45-2ec1-59c0-ad99-17f37c4fd98b",
       "97c8c772-bef9-5e07-a8e6-384b58417056"
@@ -223,7 +223,7 @@
   },
   {
     "question_id": "e88a13c6-7734-5e69-94c1-f7976be92709",
-    "question": "Jasmin Geljo 以他在 2005 年的後末日恐怖片中的角色而聞名，這部電影是由誰編劇和導演的？",
+    "question": "賈斯明·蓋爾喬（Jasmin Geljo）因在2005年一部由誰編劇並執導的末日後恐怖電影中的角色而聞名？",
     "gold_answer": "喬治·A·羅梅羅 (George A. Romero)",
     "gold_doc_ids": [
       "3205dc30-84b5-54b2-8921-14e362a2a498",
@@ -234,7 +234,7 @@
   },
   {
     "question_id": "004e5b34-aa09-568e-9fa0-b096b8a85e4d",
-    "question": "讓-皮埃爾·奧爾諾（Jean-Pierre Aulneau de le Touche）神父在他能夠前往位於哪個州的曼丹（Mandan）探險之前就被殺了？",
+    "question": "尚-皮耶·奧諾·德·勒·圖什（Jean-Pierre Aulneau de le Touche）神父在前往曼丹（Mandan）探險之前就被殺害了，曼丹位於哪一個州？",
     "gold_answer": "北達科他州 (North Dakota)",
     "gold_doc_ids": [
       "1b38d005-6dfd-50c8-a10f-d35ed43d7772",
@@ -245,8 +245,8 @@
   },
   {
     "question_id": "71f6c9e6-81e0-5711-a20d-b3d5c50d1a9e",
-    "question": "這位於1847年出生的德國作曲家、鋼琴家、管風琴家和指揮家活躍於哪個時期，他的作品《婚禮進行曲》成為任何「婚禮進行曲」的參考？",
-    "gold_answer": "早期浪漫時期",
+    "question": "這位於1847年出生的德國作曲家、鋼琴家、管風琴家及指揮家，活躍於哪一個時期，其作品《婚禮進行曲》（Wedding March）成為所有「婚禮進行曲」的參考標準？",
+    "gold_answer": "早期浪漫主義時期",
     "gold_doc_ids": [
       "75e074ff-9c9e-5369-99b1-96e15eb51c47",
       "4c83a5f4-97f7-5198-a49b-5c32e5d813ad"
@@ -256,8 +256,8 @@
   },
   {
     "question_id": "6e8e0cf2-4e8c-5e8f-ac29-47353540c397",
-    "question": "菲律賓大學(The Philippines University)和北角大學(The NorthCap University)，哪一個位於印度？",
-    "gold_answer": "北角大學 (The NorthCap University)",
+    "question": "位於印度的是菲律賓大學（University of the Philippines）還是北頂大學（The Northcap University）？",
+    "gold_answer": "北卡普大學 (The NorthCap University)",
     "gold_doc_ids": [
       "276de3ed-4856-5660-9710-480609e64071",
       "034dd7a8-c5e5-52a6-9d5f-f36b0f54c77f"
@@ -267,7 +267,7 @@
   },
   {
     "question_id": "ae6938d0-49f6-56db-a563-fb6071a09d52",
-    "question": "格倫·比德米德（Glenn Bidmead）和雅各布·霍加德（Jacob Hoggard）都是吉他手嗎？",
+    "question": "Glenn Bidmead 和 Jacob Hoggard 都是吉他手嗎？",
     "gold_answer": "不",
     "gold_doc_ids": [
       "3d2de7e2-678c-5a84-86f4-2ce20774659b",
@@ -278,7 +278,7 @@
   },
   {
     "question_id": "fc30d5c9-62cc-52e0-aab9-13d5b4bd16cb",
-    "question": "哪個汽車俱樂部在加州和印第安納波利斯舉辦經過認可的賽事？",
+    "question": "哪個汽車俱樂部曾在加州以及印第安納波利斯（Indianapolis）舉辦過經其認可的賽事？",
     "gold_answer": "美國汽車俱樂部 (United States Auto Club)",
     "gold_doc_ids": [
       "06430608-5872-5bdc-b04b-e2c9f683483a",
@@ -289,8 +289,8 @@
   },
   {
     "question_id": "1f6dc4ed-a3a3-564c-b61a-f43928865588",
-    "question": "墨西哥錫那羅亞州(Sinaloa)的維拉烏尼翁（Villa Unión）位於哪個州？",
-    "gold_answer": "下加利福尼亞半島(Baja California)的尖端",
+    "question": "墨西哥州（State of Mexico）在哪裡？Villa Unión（比亞烏尼翁），錫那羅亞州（Sinaloa）是位於哪裡？",
+    "gold_answer": "下加利福尼亞（Baja California）半島的尖端",
     "gold_doc_ids": [
       "519d45b6-1ce5-5de5-90f9-921020262001",
       "e4998958-390f-510c-9f41-f1023b2f7aba"
@@ -300,8 +300,8 @@
   },
   {
     "question_id": "06fa1e1a-d488-55ad-bf9d-48c2ee73e824",
-    "question": "擁有一條馬克六號單軌列車的非營利公司是由誰協助進行債券融資的？",
-    "gold_answer": "內華達州 (Nevada)",
+    "question": "協助擁有Mark VI單軌列車的非營利公司進行債券融資的是誰？",
+    "gold_answer": "內華達州 (State of Nevada)",
     "gold_doc_ids": [
       "508d198d-074f-570f-b223-2afa70b31617",
       "ab0de328-1f8b-5d54-90e0-ed8ae27d474c"
@@ -311,7 +311,7 @@
   },
   {
     "question_id": "990de24d-660d-54aa-a4c6-d92d770ca219",
-    "question": "這位在1970年與西瓦吉·甘納森（Sivaji Ganesan）合作的演員除了演員之外，還擔任了什麼職位？",
+    "question": "那位曾在1970年與希瓦吉·甘尼森（Sivaji Ganesan）合作出演戲劇電影的演員，除了演員之外還擁有什麼頭銜？",
     "gold_answer": "政治人物",
     "gold_doc_ids": [
       "98022615-44a8-594b-bc6c-79e5e51cadc1",
@@ -322,7 +322,7 @@
   },
   {
     "question_id": "77906e14-a1ee-52aa-8592-37f1fa1feb2b",
-    "question": "這首歌是由Jeffrey Jey、Maurizio Lobina和Gabry Ponte組成的團體創作，並於1999年1月15日發行的。",
+    "question": "由Jeffrey Jey、Maurizio Lobina和Gabry Ponte組成的團體於1999年1月15日發行了哪一首歌曲？",
     "gold_answer": "藍色",
     "gold_doc_ids": [
       "ff56eae5-9d25-58b8-a2bf-b8bd3ee25405",
@@ -333,7 +333,7 @@
   },
   {
     "question_id": "43b7aa4a-a5ca-527d-bb18-bd5b5d70b92f",
-    "question": "北極熊（Polar Bear）和達基里（Daiquiri）都是什麼的例子？",
+    "question": "北極熊（Polar Bear）和黛綺莉（Daiquiri）都是什麼的例子？",
     "gold_answer": "雞尾酒",
     "gold_doc_ids": [
       "55297153-d261-5d68-b512-4869dacd1ce7",
@@ -344,7 +344,7 @@
   },
   {
     "question_id": "6deae00e-48e4-585a-b724-275444c99f84",
-    "question": "誰在2007年印度泰盧固語電影中飾演女主角，該片是莉娜·維爾特米勒（Lina Wertmuller）1974年電影的非官方翻拍？",
+    "question": "誰在2007年一部印度泰盧固語電影中擔任女主角，該電影是莉娜·韋特繆勒（Lina Wertmuller）1974年電影的非官方翻拍版？",
     "gold_answer": "Neha Sharma",
     "gold_doc_ids": [
       "05655568-efcb-5f68-a840-8decc016e53e",
@@ -355,8 +355,8 @@
   },
   {
     "question_id": "9d6a3fc3-b3df-58a6-9da2-593d314f30c2",
-    "question": "誰嫁給了一位出演《馬庫斯·韋爾比醫生》（Marcus Welby, M.D.）的男士？",
-    "gold_answer": "巴布拉·史翠珊",
+    "question": "誰嫁給了一位曾主演《馬庫斯·韋爾比醫生》(Marcus Welby, M.D.)的男子？",
+    "gold_answer": "芭芭拉·史翠珊 (Barbra Streisand)",
     "gold_doc_ids": [
       "1528c403-babe-5afc-92e6-1a94ccf6cf71",
       "cbcb5877-b7ac-57d1-a0f2-df83b743e251"
@@ -366,8 +366,8 @@
   },
   {
     "question_id": "22f765fa-42bd-54ff-86eb-5575aa6aa61a",
-    "question": "詹姆斯·拜倫·迪恩（James Byron Dean）在他最後的主角角色中飾演了哪個角色，並因此獲得了他的第二座奧斯卡獎？",
-    "gold_answer": "牧場工人傑特·林克 (Jett Rink)",
+    "question": "詹姆斯·拜倫·迪恩（James Byron Dean）在他最後一個主演角色中飾演的是哪個角色，這個角色也為他贏得了第二次奧斯卡金像獎提名？",
+    "gold_answer": "牧場工人傑特·林克（Jett Rink）",
     "gold_doc_ids": [
       "be8d7a16-94be-52e8-8d4f-f1904947a053",
       "6fb9363a-4800-5022-a362-3f2ac894ef18"
@@ -377,8 +377,8 @@
   },
   {
     "question_id": "46fc174c-2cbc-5997-96ac-52980115f0d4",
-    "question": "哈姆郡和漢普登運河（Hampshire and Hampden Canal）和田納西–湯比吉水道（Tennessee–Tombigbee Waterway）哪一個更長？",
-    "gold_answer": "田納西–湯比吉水道",
+    "question": "哪一個比較長，漢普郡與漢普登運河（Hampshire and Hampden Canal）還是田納西-湯比格比水道（Tennessee–Tombigbee Waterway）？",
+    "gold_answer": "田納西-湯比格比水道 (Tennessee–Tombigbee Waterway)",
     "gold_doc_ids": [
       "3b8a3a79-64c3-5bf0-b96b-9e42a7828826",
       "45c2cea9-10df-52be-88ed-397490290aa9"
@@ -388,8 +388,8 @@
   },
   {
     "question_id": "ecb9d970-7b5e-5d47-9acf-dbf01e97ed65",
-    "question": "「公民拉力越野車」是與哪一款在本田Verno經銷商專門販售的其他型號一起出售的？",
-    "gold_answer": "本田巴拉德",
+    "question": "「Civic Rally Cross」是與哪一款僅在日本本田Verno（Honda Verno）經銷商獨家販售的車型一同銷售的？",
+    "gold_answer": "本田Ballade (Honda Ballade)",
     "gold_doc_ids": [
       "3967c150-73c8-5402-8e25-15890b6f9b06",
       "ff2d1e2d-c2fc-506b-8e84-f631925e5bc2"
@@ -399,7 +399,7 @@
   },
   {
     "question_id": "e31c8685-31d8-5dbf-b27f-da3a079b9226",
-    "question": "這位於1921年11月3日出生、曾是米歇爾·梅西耶（Michèle Mercier）主演男星的演員國籍是什麼？",
+    "question": "那位曾與蜜雪兒·梅西耶（Michèle Mercier）搭檔演出的男主角，於1921年11月3日出生，他的國籍是什麼？",
     "gold_answer": "美國人",
     "gold_doc_ids": [
       "5abfe7c7-954f-50ea-9bdb-6c6a06520a34",
@@ -410,8 +410,8 @@
   },
   {
     "question_id": "673312f5-4e96-5f44-9bb4-52d174bfd0cf",
-    "question": "哪個機場更繁忙，棕櫚泉國際機場（Palm Springs International Airport）還是特倫頓-默瑟機場（Trenton–Mercer Airport）？",
-    "gold_answer": "特倫頓-默瑟機場 (Trenton–Mercer Airport)",
+    "question": "哪一個機場比較繁忙，棕櫚泉國際機場（Palm Springs International Airport）還是特倫頓-默瑟機場（Trenton–Mercer Airport）？",
+    "gold_answer": "特倫頓–默瑟機場 (Trenton–Mercer Airport)",
     "gold_doc_ids": [
       "592d5b54-35d7-5055-9aeb-7451c1ee37a0",
       "fc8d53e6-1850-5422-9802-38e59442ac50"
@@ -421,7 +421,7 @@
   },
   {
     "question_id": "7b092787-cce3-5b64-8ae0-7dabb481573c",
-    "question": "哪部電影最近上映，《邪惡的故事》（A Wicked Tale）還是《有兩位單身漢》（There Were Two Bachelors）？",
+    "question": "哪一部電影是最近上映的，《A Wicked Tale》還是《There Were Two Bachelors》？",
     "gold_answer": "一個邪惡的故事",
     "gold_doc_ids": [
       "7a873f32-dd0a-5801-b8a6-2d91c7bb3afd",
@@ -432,8 +432,8 @@
   },
   {
     "question_id": "66ead845-37d5-590a-9cf7-552312f6de3e",
-    "question": "Sirikitiya Jensen的外祖母是誰？",
-    "gold_answer": "西里吉 (Sirikit)",
+    "question": "Sirikitiya Jensen（西里吉蒂雅·詹森）的外祖母是Sirikit（詩麗吉）。",
+    "gold_answer": "詩麗吉（Sirikit）",
     "gold_doc_ids": [
       "8c31cbeb-0c47-5509-8818-2f2271e9c3d7",
       "309a2590-edd8-5219-a6a6-5f56a6110617"
@@ -443,8 +443,8 @@
   },
   {
     "question_id": "b513e25c-f823-5dfc-8faa-bee7501d1d18",
-    "question": "哪部電影的導演出生得較晚，《總是有香草》（There'S Always Vanilla）還是《傳教士》（A Missionary）？",
-    "gold_answer": "總是有香草味",
+    "question": "哪一部電影的導演出生得比較晚，《There'S Always Vanilla》還是《A Missionary》？",
+    "gold_answer": "永遠有香草 (There'S Always Vanilla)",
     "gold_doc_ids": [
       "3240d663-0b90-5e42-a25f-9e9e21755653",
       "415a3d29-c8b7-54d3-b6de-8a17f35ac3a0",
@@ -456,8 +456,8 @@
   },
   {
     "question_id": "5c134333-faeb-54b5-ab82-858df99b7323",
-    "question": "電影《過冬》（Passer L'Hiver）和《我的皮膚》（In My Skin）是來自同一個國家嗎？",
-    "gold_answer": "是的",
+    "question": "電影《Passer L'Hiver》和《In My Skin》是否來自同一個國家？",
+    "gold_answer": "是",
     "gold_doc_ids": [
       "db8d9554-4f6e-5b73-932b-82f7cf34a739",
       "e3dc05fc-dfa3-5373-a8f0-f62e2f5d05e5"
@@ -467,8 +467,8 @@
   },
   {
     "question_id": "e458e1f1-1fec-5a0d-a302-551c492590a2",
-    "question": "哪部電影先上映，《不可思議》（Unthinkable）還是《神父的秘密》（The Priest's Secret）？",
-    "gold_answer": "神父的秘密",
+    "question": "哪一部電影先上映，《極度重罪》（Unthinkable）還是《神父的秘密》（The Priest'S Secret）？",
+    "gold_answer": "牧師的祕密",
     "gold_doc_ids": [
       "c2250766-babb-5754-896b-d6a5b7febb3b",
       "d35957e0-4d9a-5f89-a1a8-05b1b50449d8"
@@ -478,8 +478,8 @@
   },
   {
     "question_id": "ef61f1f8-83be-5959-b3b4-3b387d8408b4",
-    "question": "羅戈季哈（Rogozikha）和“卡屯”（Turbaza \"Katun\"）這兩個村莊位於同一個國家嗎？",
-    "gold_answer": "是的",
+    "question": "Rogozikha 和 Turbaza \"Katun\" 這兩個村莊位於同一個國家嗎？",
+    "gold_answer": "是",
     "gold_doc_ids": [
       "c99c2bf0-6d27-5e14-b3c8-38503f6d7de5",
       "dbb893a7-4e6b-502c-9a45-ba4d506f7029"
@@ -489,7 +489,7 @@
   },
   {
     "question_id": "7110f7ca-abcf-5486-ae02-7c9ed9f7a537",
-    "question": "哪部電影的導演較早去世，《高社會藍調》（High Society Blues）還是《反擊》（Counterblast）？",
+    "question": "哪一部電影的導演較早去世，《High Society Blues》還是《Counterblast》？",
     "gold_answer": "反擊",
     "gold_doc_ids": [
       "fc0b228c-206b-53ea-8658-618fa1b97b3e",
@@ -502,7 +502,7 @@
   },
   {
     "question_id": "d173c59e-0e89-5991-a088-3f823a0f7f6f",
-    "question": "誰比較年輕，Bob Degen 還是 Ashad Ali？",
+    "question": "誰年紀比較小，鮑勃·迪根（Bob Degen）還是阿沙德·阿里（Ashad Ali）？",
     "gold_answer": "阿沙德·阿里 (Ashad Ali)",
     "gold_doc_ids": [
       "1f6ef848-dd2f-5264-a32e-a9c19e49c902",
@@ -513,8 +513,8 @@
   },
   {
     "question_id": "225a86c6-3d66-5671-8cbd-f26adc171514",
-    "question": "這部電影《美國隊長：世界警察》（Team America: World Police）的導演在哪裡工作？",
-    "gold_answer": "喜劇中心",
+    "question": "《美國隊長：世界警察》(Team America: World Police) 的導演目前在哪裡工作？",
+    "gold_answer": "喜劇中心 (Comedy Central)",
     "gold_doc_ids": [
       "df152432-78b5-5bbd-a377-5d27ec291e1e",
       "04904ec5-62d1-5577-bcf7-52125c33eba8"
@@ -524,8 +524,8 @@
   },
   {
     "question_id": "70389580-970b-50e1-ac8d-8dd09374a334",
-    "question": "哪部電影的導演先去世，《城市恐懼》（Fear Over The City）還是《乞力馬扎羅的陰影》（In The Shadow Of Kilimanjaro）？",
-    "gold_answer": "城市的恐懼",
+    "question": "哪一部電影的導演較早去世，《城市驚魂》(Fear Over The City) 還是《乞力馬札羅山下》(In The Shadow Of Kilimanjaro)？",
+    "gold_answer": "城市驚魂",
     "gold_doc_ids": [
       "99f0d0ae-8a86-5b47-8080-fef09c9c350c",
       "b0cd7665-f220-5fb8-bba9-a6bbfa50aba8",
@@ -537,8 +537,8 @@
   },
   {
     "question_id": "9b0b8336-46a7-52fc-be67-b5d3a209bacd",
-    "question": "電影《我城市的歌手》（The Singer Of My City）導演的死因地點在哪裡？",
-    "gold_answer": "布宜諾斯艾利斯",
+    "question": "電影《我城歌者》(The Singer Of My City)導演的死亡地點在哪裡？",
+    "gold_answer": "布宜諾斯艾利斯 (Buenos Aires)",
     "gold_doc_ids": [
       "6c15091f-43d2-5edb-8059-b541251d1d45",
       "ede5d208-1fec-5049-ab4d-0c9f68290a7e"
@@ -548,7 +548,7 @@
   },
   {
     "question_id": "922b8472-5603-55a7-971b-c27ca9639fa9",
-    "question": "Francisca Pizarro Yupanqui的父親去世的地方是在哪裡？",
+    "question": "Francisca Pizarro Yupanqui 的父親是在哪裡去世的？",
     "gold_answer": "利馬 (Lima)",
     "gold_doc_ids": [
       "fa961d39-29dc-51f6-8330-b7a4ae183bfc",
@@ -559,7 +559,7 @@
   },
   {
     "question_id": "4bcb7e14-8161-5825-881b-141028d5c552",
-    "question": "哪部電影先上映，《狂野德州風》（Wild Texas Wind）還是《海軍妻子》（Navy Wife）？",
+    "question": "哪一部電影先上映，《狂野德州風》(Wild Texas Wind) 還是《海軍妻子》(Navy Wife)？",
     "gold_answer": "海軍妻子",
     "gold_doc_ids": [
       "0b548306-6bc4-5489-b31d-83b1648f8e38",
@@ -570,8 +570,8 @@
   },
   {
     "question_id": "e4be7bda-da20-51a9-8ecc-7d4a0ed8a778",
-    "question": "保琳·拉豐·戈爾（Pauline Lafon Gore）的丈夫的埋葬地點在哪裡？",
-    "gold_answer": "田納西州 (Tennessee)",
+    "question": "Pauline Lafon Gore 的丈夫安葬地點在哪裡？",
+    "gold_answer": "田納西（Tennessee）",
     "gold_doc_ids": [
       "84235bfc-cc44-5c84-848d-18b3c6bab9d2",
       "7509a540-f4c9-5ef5-9abb-5c46f54c96c6"
@@ -581,8 +581,8 @@
   },
   {
     "question_id": "09e8fca4-1ba8-56d8-80a0-5f81fe1d7d19",
-    "question": "導演安德烈什（Andriesh）的出生地是什麼地方？",
-    "gold_answer": "第比利斯",
+    "question": "《Andriesh》這部電影導演的出生地是在哪裡？",
+    "gold_answer": "第比利斯 (Tbilisi)",
     "gold_doc_ids": [
       "185c35c0-1074-5acc-85bf-49cb54525dce",
       "454aa8c2-c9e6-5323-b684-45a43513b085"
@@ -592,8 +592,8 @@
   },
   {
     "question_id": "6f6f15a0-035a-52f5-af1b-fd776d541d96",
-    "question": "Denis Rogers 和 Zelma Wilson 誰出生得更早？",
-    "gold_answer": "丹尼斯·羅傑斯",
+    "question": "Denis Rogers 和 Zelma Wilson 誰出生得比較早？",
+    "gold_answer": "丹尼斯·羅傑斯 (Denis Rogers)",
     "gold_doc_ids": [
       "9e251ee7-5820-547e-a062-ae160e66c512",
       "2197fad6-ca83-56da-bf63-d134223f63ce"
@@ -603,7 +603,7 @@
   },
   {
     "question_id": "7f33b0c2-aee7-5375-a159-d6d09638c21b",
-    "question": "彼得二世（Peter II），拉馬爾克伯爵（Count of La Marche）的父親的死亡日期是什麼？",
+    "question": "彼得二世（Peter II），拉馬爾什伯爵（Count Of La Marche）的父親的逝世日期是什麼時候？",
     "gold_answer": "1362年4月6日",
     "gold_doc_ids": [
       "6611c272-301b-5a8d-9423-57240473a6aa",
@@ -614,8 +614,8 @@
   },
   {
     "question_id": "83fce0e0-2cc8-5466-9e37-be445c35712e",
-    "question": "哪部電影的導演出生得更早，《巴維什·喬希超級英雄》（Bhavesh Joshi Superhero）還是《地獄男爵 II：黃金軍團》（Hellboy II: The Golden Army）？",
-    "gold_answer": "地獄男爵 II：金色軍團",
+    "question": "哪一部電影的導演出生得較早，《Bhavesh Joshi Superhero》還是《Hellboy II: The Golden Army（地獄怪客2：金甲軍團）》？",
+    "gold_answer": "地獄怪客II：金甲軍團 (Hellboy II: The Golden Army)",
     "gold_doc_ids": [
       "618080e3-ad91-54cb-bf74-1883270f6e95",
       "204bdfaa-d793-5350-ad7c-5392edcd9844",
@@ -627,7 +627,7 @@
   },
   {
     "question_id": "d1a699dd-9e41-55d5-995e-818a2f4f0565",
-    "question": "約翰·圖切（John Tuchet），第六代奧德利男爵（6th Baron Audley）的父親的埋葬地點在哪裡？",
+    "question": "約翰·圖切特（John Tuchet），第六代奧德利男爵（6th Baron Audley）的父親安葬於哪裡？",
     "gold_answer": "達利修道院 (Darley Abbey)",
     "gold_doc_ids": [
       "e227205c-9e80-58b8-aa1d-3c612c499b77",
@@ -638,8 +638,8 @@
   },
   {
     "question_id": "0efb4e59-9bf1-5b5d-89e0-2ece479d1b90",
-    "question": "安妮·伍德維爾（Anne Woodville）的岳父是理查三世（Richard III）。",
-    "gold_answer": "肯特第一伯爵愛德蒙·格雷 (Edmund Grey, 1st Earl of Kent)",
+    "question": "Anne Woodville 的公公是誰？",
+    "gold_answer": "愛德蒙·格雷（Edmund Grey），第一代肯特伯爵（Earl of Kent）",
     "gold_doc_ids": [
       "7c3a09a4-990b-5e02-a213-8506371fedac",
       "69212d98-8d8b-5464-8ecd-bfbd9c7ad8d6"

@@ -9,11 +9,11 @@
 ```python
 import json
 
-# 1. 載入評測題庫 (50 題)
+# 1. 載入評測題庫 (60 題)
 with open("data/processed/queries.json", "r", encoding="utf-8") as f:
     queries = json.load(f)
 
-# 2. 載入文檔庫 (500 篇)
+# 2. 載入文檔庫 (600 篇)
 with open("data/processed/corpus.json", "r", encoding="utf-8") as f:
     corpus = json.load(f)
 
@@ -25,7 +25,7 @@ corpus_map = {doc["doc_id"]: doc["content"] for doc in corpus}
 
 一般的 RAG 評測流程如下：
 
-1. **建立索引 (Indexing)**：將 `corpus` 中的 500 篇文章轉換為向量並存入向量資料庫 (Vector DB)。
+1. **建立索引 (Indexing)**：將 `corpus` 中的 600 篇文章轉換為向量並存入向量資料庫 (Vector DB)。
    - **Embedding Model**: `text-embedding-3-small`
    - **Chunking Strategy**: 不進行切分 (No Chunking)，直接使用完整文章內容 (content)。
 2. **檢索 (Retrieval)**：針對每個 `query`，檢索出 Top-5 篇相關文章。
@@ -97,7 +97,7 @@ for q in queries:
 print("📊 按資料來源分組")
 print()
 
-for source in ["drcd", "squad", "hotpotqa", "2wiki"]:
+for source in ["drcd", "hotpotqa", "2wiki"]:
     s = stats[source]
     if s["total"] == 0:
         continue

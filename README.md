@@ -71,10 +71,12 @@ uv run src/fix_questions.py
 ```
 
 ### 4. 資料驗證
-檢查資料完整性、數量、Schema 與語言一致性。
+檢查資料完整性、數量、重複性、語言一致性，並驗證 Raw 與 Processed 資料的一致性。
 ```bash
 uv run src/verify_data.py
 ```
+> - 驗證 `queries.json`, `corpus.json`, `queries_raw.json`, `corpus_raw.json`
+> - 若檔案遺失，仍會繼續驗證其餘檔案
 
 ### 5. 問題抽換 (可選)
 若發現品質不佳的問題，可將其替換為同資料集的另一題。

@@ -1,0 +1,526 @@
+[
+  {
+    "question_id": "58e6f045-3ed7-55d6-a5d7-950baed4b07a",
+    "question": "台灣於何年開始實施九年國民義務教育?",
+    "gold_answer": "1968年",
+    "gold_doc_ids": [
+      "164a54d5-3acc-57e7-9008-cbbb15d1badd"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "228441b3-2799-52b0-869b-c9f33be26e7b",
+    "question": "夜柔吠陀與阿闥婆吠陀均可以最為研究哪一門語言的參考？",
+    "gold_answer": "梵語",
+    "gold_doc_ids": [
+      "abd419c5-600c-589e-bc7f-05df368fd286"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "cc5e4f4d-3b89-53e2-b9d6-c16aed8cdd52",
+    "question": "高句麗在直到滅亡前多久時間其首都都在長安城？",
+    "gold_answer": "83年",
+    "gold_doc_ids": [
+      "e1026d55-4b5d-52bd-bca2-4869c4673603"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "80c3df46-5972-5e17-91a0-ef040856df30",
+    "question": "加拿大軍事基地溫尼伯分基地目前位於何處?",
+    "gold_answer": "溫尼伯國際機場",
+    "gold_doc_ids": [
+      "d0275496-cb9d-5d10-9c34-0533858cdcdc"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "09b845f2-3a1a-5509-972b-a278eceb73e6",
+    "question": "哪一種稻米有8成左右的澱粉不是直鏈澱粉？",
+    "gold_answer": "秈稻",
+    "gold_doc_ids": [
+      "a5a7c058-6a5b-57cd-b279-e35eb35e6126"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "fd2f1abe-29cd-50ca-b88b-1f0b8ef34484",
+    "question": "滬寧鐵路在哪一年的時候開始動工?",
+    "gold_answer": "1905年",
+    "gold_doc_ids": [
+      "9b3d493f-1642-5136-b6cd-168e64014f8b"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "3cf8e5a7-0512-592b-a7ae-7866858aa744",
+    "question": "蔣中正施行白色恐怖的原因有二，除了為了穩固政權之外，另一項原因為何?",
+    "gold_answer": "防止中國共產黨滲透",
+    "gold_doc_ids": [
+      "e17f306b-5dac-5295-aacf-f7cf9176ea19"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "e75fdd88-a987-5371-a179-8fff025947d5",
+    "question": "很多人認為在什麼時間之後韓國就不再是漢江奇蹟？",
+    "gold_answer": "1997年",
+    "gold_doc_ids": [
+      "3db877db-add1-597d-9b7e-f7f3662ffaae"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "acd1f744-1ca5-5e9e-bc0c-4d715872a64d",
+    "question": "東德有多少比例的婦女在到1989年前都有參與工作？",
+    "gold_answer": "92%",
+    "gold_doc_ids": [
+      "32bf09a0-7393-57b3-92c9-dbe2412cf0ab"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "284072b1-7a71-5d50-876b-e380b3811f34",
+    "question": "經濟部的前身實業部是依據哪一條章於1912年首次設立的?",
+    "gold_answer": "《中華民國臨時政府組織大綱》",
+    "gold_doc_ids": [
+      "8fce8aec-9640-5fec-9071-f0baa1d738cc"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "72412e3a-f166-5cf0-a973-78a4256a55a8",
+    "question": "過氧乙醚在什麼樣的情況下有可能發生爆炸?",
+    "gold_answer": "乾燥",
+    "gold_doc_ids": [
+      "b73e5337-063d-544b-9b42-dfac24025696"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "05b2e67a-c9a6-5298-a026-2bbcb750367c",
+    "question": "馬祖列島的地形中有很多崩崖與險礁之成因統稱為什麼？",
+    "gold_answer": "侵蝕作用",
+    "gold_doc_ids": [
+      "2ccfcc2b-d812-5902-a49d-7c96cbcffdc2"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "2498fa5a-33fe-5bfa-9913-88e7d97dd684",
+    "question": "在2010年行政院大陸委員會所作的的民意調查中，大多數的台灣人認為應該如何處理兩岸關係?",
+    "gold_answer": "應該維持現狀",
+    "gold_doc_ids": [
+      "24342d7d-74aa-5193-9af5-17a6700e7d4b"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "3ffe2cf2-8457-594a-8f29-313646bff106",
+    "question": "法蘭克福為第二大都市圈，僅次於哪個城市?",
+    "gold_answer": "萊茵魯爾",
+    "gold_doc_ids": [
+      "dc157431-bbee-57af-844d-61eab593d534"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "019accfb-551f-5165-90c1-98f29cb80706",
+    "question": "六七暴動中，損失最多的是什麼身分的人?",
+    "gold_answer": "福建華僑",
+    "gold_doc_ids": [
+      "e7a58ec0-9d25-55ae-9dc3-94fc561ace47"
+    ],
+    "source_dataset": "drcd",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "6ab7ce95-03ab-552f-8e92-18e1b405fead",
+    "question": "When was the debut of the 1983 special called The Five Doctors?",
+    "gold_answer": "23 November",
+    "gold_doc_ids": [
+      "dcb95d01-401b-52c5-b581-144289b2ecaf"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "9b5e78a5-1a9d-5ab9-9edd-62e94bd0876a",
+    "question": "What was the importance of the congress?",
+    "gold_answer": "format of the congress and many specifics of the plan became the prototype for confederation during the War of Independence",
+    "gold_doc_ids": [
+      "e814881d-2f41-5033-bc96-7fb457b6b5b8"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "c8030c95-5100-5131-bc13-531fce69a38a",
+    "question": "What is the basic unit of organization within the UMC?",
+    "gold_answer": "The Annual Conference",
+    "gold_doc_ids": [
+      "6f49a59a-46da-5342-b564-dc22687e10bc"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "16f421a4-e14f-53e9-a6e5-7bca938cba39",
+    "question": "What was Warner Sinback",
+    "gold_answer": "a data network based on this voice-phone network was designed to connect GE's four computer sales and service centers",
+    "gold_doc_ids": [
+      "34df90b3-ac32-57a5-b18d-c7ce005dd52f"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "7cf286a2-72e2-55ee-81a9-10614c5a1deb",
+    "question": "When does the largest traveling fair in Europe take place?",
+    "gold_answer": "every June",
+    "gold_doc_ids": [
+      "a7c4aeac-852f-544d-a4a5-d31f8599f354"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "3a24f03d-f8b4-565e-989b-66e1dd9408d1",
+    "question": "When was Iqbal elected president of the Muslim League?",
+    "gold_answer": "1930",
+    "gold_doc_ids": [
+      "240920e2-50de-5e6e-93d0-72759625f5e1"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "3b5c6454-eabc-5f21-828d-8550eec57978",
+    "question": "What is the first model of education, in the Australian system?",
+    "gold_answer": "primary",
+    "gold_doc_ids": [
+      "da5e2be0-3b3b-584d-9414-7b88b7d31a4d"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "fc0c588b-bbfb-51b6-b55e-25b0507969e1",
+    "question": "Was the school officially associated with any denomination?",
+    "gold_answer": "It was never affiliated with any particular denomination",
+    "gold_doc_ids": [
+      "691431b7-12f8-5732-a5dd-18e6ed5d0bb9"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "7901e3f5-e15e-56f6-8e5b-a47253cfbd60",
+    "question": "Historically, which movement has the Methodist Church supported?",
+    "gold_answer": "temperance movement",
+    "gold_doc_ids": [
+      "8c34b563-fa44-5f3c-887f-4ad5fd203474"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "d765e3e5-ce72-5b7a-8b0d-204da58fa58e",
+    "question": "In what episode did Doctor Who acknowledge having had a brother?",
+    "gold_answer": "Smith and Jones",
+    "gold_doc_ids": [
+      "189bfb9b-e875-546d-955a-118b7febadf3"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "fa5d56a9-247a-543a-8e72-8650a8c2a859",
+    "question": "Where does Luther place Salvation?",
+    "gold_answer": "with the Father",
+    "gold_doc_ids": [
+      "dc4ac34e-9dd5-5d5b-889e-87abbf7a0e54"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "0212be62-b094-575f-9916-7e914c575853",
+    "question": "What are the three sectors of construction?",
+    "gold_answer": "buildings, infrastructure and industrial",
+    "gold_doc_ids": [
+      "7be9f1b2-8fea-5a58-947a-b517e81df41c"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "50bdf9e8-2440-5231-924b-ea376756280f",
+    "question": "How did the leaders of the city of Bukhara respond to the Mongol attack?",
+    "gold_answer": "opened the gates",
+    "gold_doc_ids": [
+      "97a073f2-a6d0-56fa-bbc5-d90c6fff4fad"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "247d079f-958a-5687-8c56-373033fd878f",
+    "question": "France laid siege to Montpellier in what year?",
+    "gold_answer": "1622",
+    "gold_doc_ids": [
+      "9fd45d5f-4892-5be1-b3a5-91db512bedac"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "57fc976d-e05a-5991-9b20-80f8228b7ce0",
+    "question": "Who ended the series in 1989?",
+    "gold_answer": "Jonathan Powell",
+    "gold_doc_ids": [
+      "e3d95291-ecf9-5c90-adb6-dbb285756d7a"
+    ],
+    "source_dataset": "squad",
+    "question_type": "single-hop"
+  },
+  {
+    "question_id": "7948ebb6-96d2-5a99-973c-288d2a67cb95",
+    "question": "What was the 2010 population of the city established around St. Mary's Mission?",
+    "gold_answer": "2,627",
+    "gold_doc_ids": [
+      "fd2bdc02-aba1-557c-80ba-548eebc13cd9",
+      "8c695d4a-b072-5b23-8e4d-6062b9f82e8f"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "e7124c20-75c2-5d99-9acf-d2cba40228fa",
+    "question": "Are Cardinal Health and Kansas City Southern located in the same state?",
+    "gold_answer": "no",
+    "gold_doc_ids": [
+      "39d13fa0-7121-53af-88bd-99a19bff95ac",
+      "6722c37f-a1cd-5141-a999-c041aec357b0"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "4ed67ed4-6e1d-5d52-81d7-edd7f762a881",
+    "question": "Securinega and Zamioculcas are both examples of what?",
+    "gold_answer": "genus of plants",
+    "gold_doc_ids": [
+      "69fcbdaf-218f-5712-a859-8cf223e12157",
+      "ca4c3384-f889-519e-bbd7-9efa8a8c3441"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "76fcdc0d-c3a3-528d-8c7f-157863f84977",
+    "question": "A pakistani photogropher was the personal photographer of a Pakistani politician who served as Prime Minister of Pakistan from 1973 to 1977,and who also served in what political office prior to that?",
+    "gold_answer": "President of Pakistan",
+    "gold_doc_ids": [
+      "e87281b8-5efd-5b42-83a7-c9b5bda81f14",
+      "8b19d984-9871-551b-a8a1-55fd1bcf1246"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "f2a189df-0049-581d-8473-f4fc62797520",
+    "question": "author of the popular \"Getting Started in Electronics\" founded Micro Instrumentation and Telemetry Systems (MITS) in what state?",
+    "gold_answer": "Albuquerque, New Mexico",
+    "gold_doc_ids": [
+      "c3b7e790-527e-59bb-9198-20f3bf2a2f28",
+      "5530f020-1c52-5e1a-9f0b-1be4836b57ef"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "13c0a689-6599-59be-8200-889650bed2a9",
+    "question": "What sports team included both of the brothers Case McCoy and Colt McCoy during different years?",
+    "gold_answer": "University of Texas Longhorns",
+    "gold_doc_ids": [
+      "909709fd-a43a-5029-ae6d-87408cea2f26",
+      "23c6be59-e76b-5561-98c6-d388fcf819f8"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "245cfd74-cbaa-5590-ae9d-f86b3be0acc6",
+    "question": "Henderson Executive Airport got its name in 1996 when it was purchased by Clark County to be used as a reliever airport for an airport named after what politican?",
+    "gold_answer": "U.S. Senator Pat McCarran",
+    "gold_doc_ids": [
+      "3f2a2be9-0f72-50c5-accb-6f2ba1159b44",
+      "dd7d4baa-6f56-55b6-b7ac-f3a1fc471904"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "9b4cffcb-22b0-5593-b062-ce5df61f4a5e",
+    "question": "The Whitehead Light is located in what town with a population of 2,591 during the 2010 census?",
+    "gold_answer": "St.George",
+    "gold_doc_ids": [
+      "e64ec6ac-e35b-5267-a7a6-94e275f23f21",
+      "39527df8-a3dd-5a9c-939a-3fee32ee5a29"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "6d2f23ea-1edb-5548-89da-bf6b25b5bf74",
+    "question": "What is the first two words of the fifth studio album of Joseph Edgar Foreman?",
+    "gold_answer": "The Hungry",
+    "gold_doc_ids": [
+      "125440e6-0c1f-57b2-ac37-f05584763db8",
+      "a283a775-3f9a-522d-935b-32974b7ce4d6"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "1f2f9bc5-5e5f-5dc5-8255-724d5aedbc50",
+    "question": "Who was born first Margaret Pellegrini or Jerry Maren?",
+    "gold_answer": "Gerard Marenghi (born January 24, 1920)",
+    "gold_doc_ids": [
+      "662a7ef2-da4e-5528-8d0b-44bb482b9b82",
+      "d9fd1ba2-ad7a-5c3f-baf3-c7dad80a1360"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "267605a3-047b-5214-8fe6-19743a0bf0b8",
+    "question": "Who is Coloman Of Galicia's paternal grandfather?",
+    "gold_answer": "Béla III of Hungary",
+    "gold_doc_ids": [
+      "bfeb7b30-d8c0-5500-bad1-07447a23636d",
+      "524f6177-b886-58e0-a4ca-30546e169dc5"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "050a281e-d5eb-5b10-bd00-3fd66b150893",
+    "question": "When is Richard Burke, 4Th Earl Of Clanricarde's wife's birthday?",
+    "gold_answer": "1567",
+    "gold_doc_ids": [
+      "baf37f2b-9891-5d6a-9227-7f7fe91df037",
+      "15f68b8c-dbe2-5835-83d2-f2e8ea1f0a8c"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "bdd81fc9-eb9d-5e99-bdff-4473c02d6893",
+    "question": "Were Michelle Shocked and James Thackara from the same country?",
+    "gold_answer": "yes",
+    "gold_doc_ids": [
+      "f7b28a23-a290-5c06-a401-6d3d5e257168",
+      "dd6d8264-5ed1-57d4-9b7c-ed1cd8dc5118"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "84238438-0d15-5482-a5b2-ae4d23a509d0",
+    "question": "Who is the paternal grandfather of Naja Rosa?",
+    "gold_answer": "Herman David Koppel",
+    "gold_doc_ids": [
+      "b8095528-6238-5293-bfbf-d26d9488a162",
+      "46b1e2e3-cdd7-5128-aa8b-5e7e70405b97"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "67848589-44cf-5b24-8a45-f1ad2f11f333",
+    "question": "Who is Frederick Of Arborea's mother?",
+    "gold_answer": "Eleanor of Arborea",
+    "gold_doc_ids": [
+      "4c3a8ac9-d517-5cba-b722-0653261b6d10",
+      "9bfe2f6d-4115-5779-9ef1-973a93c1901d"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "745e45c5-d151-547a-8735-d16852c174c5",
+    "question": "Who is Rameshwari Nehru's father-in-law?",
+    "gold_answer": "Nandlal Nehru",
+    "gold_doc_ids": [
+      "0f9b1205-5a15-5bed-a6d9-634c4d870f4e",
+      "3948f9c5-cd38-51ca-89a0-3b3667012898"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "471fa11f-abb0-5151-ad2a-508f5718b2ec",
+    "question": "Which film was released more recently, Eakantham or Ekskul?",
+    "gold_answer": "Ekskul",
+    "gold_doc_ids": [
+      "a5d148c9-36d9-5c6b-bcf6-89f4f9f728b7",
+      "7cd2ce2a-6a17-5feb-a45a-1eee72b12074"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "37fd0e11-0fe5-5c42-b4e0-0776632b633e",
+    "question": "Which film has the director who was born first, Nagalit Ang Buwan Sa Haba Ng Gabi or Roberto Carlos E O Diamante Cor-De-Rosa?",
+    "gold_answer": "Roberto Carlos E O Diamante Cor-De-Rosa",
+    "gold_doc_ids": [
+      "cd16eb2e-5e27-555c-b3fc-f2bf72978f7b",
+      "7cf8e0ce-fde7-5088-b213-f9af0c7bd955",
+      "15e587f4-35d4-5bd6-88da-22c5c67f7400",
+      "f0525527-28ce-5848-8724-7bc83b108039"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "fa5bff31-d8a5-5dbf-9a39-a8d6ecdbe773",
+    "question": "Who is the paternal grandfather of Prince Henri Of Orléans?",
+    "gold_answer": "Prince Ferdinand Philippe, Duke of Orléans",
+    "gold_doc_ids": [
+      "d006bb1b-4282-59ec-a0c7-d5312df380fa",
+      "7464d427-6d1e-5d67-93c0-a3411074917a"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "2b2de0e7-4c94-53e0-b290-ef92ebdaff2b",
+    "question": "Which film has the director who died earlier, Legion Of Terror or Tumse Achha Kaun Hai?",
+    "gold_answer": "Legion Of Terror",
+    "gold_doc_ids": [
+      "fbe05f81-9ebe-579d-8356-dc667e32711a",
+      "99a2e700-085f-5532-90c0-6db0c379545f",
+      "46edbf53-42bd-514a-9e44-6673df7aea97",
+      "0f7951c5-5d5e-51da-a81b-ab4844c7a40b"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  }
+]

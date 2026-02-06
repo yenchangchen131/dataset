@@ -36,32 +36,82 @@ corpus_map = {doc["doc_id"]: doc["content"] for doc in corpus}
 
 ## 3. 計算評測指標
 
-### 3.1 檢索指標：Recall Score (Recall@5)
+### 3.1 檢索指標
 
-針對每個問題，計算檢索出的 Top-5 文檔中，包含了幾篇該問題的標準答案 (`gold_doc_ids`)。
-針對多跳問題，觀察是否找齊所有相關文檔。
+針對檢索結果，計算以下三項指標，並按資料來源分組統計：
+
+| 指標 | 說明 |
+|------|------|
+| **Hit Rate (單一)** | 是否至少找到 1 篇黃金文檔 (binary) |
+| **Partial Hit Rate** | 找到的黃金文檔比例 (例如 17/20) |
+| **MRR (Mean Reciprocal Rank)** | 所有黃金文檔排名倒數的平均 |
+
+> **MRR 計算範例**：假設 gold docs = {A, B, C}，檢索結果 = [X, A, Y, B, C]
+> - A 的 RR = 1/2 = 0.5
+> - B 的 RR = 1/4 = 0.25
+> - C 的 RR = 1/5 = 0.2
+> - 平均 RR = (0.5 + 0.25 + 0.2) / 3 = 0.317
 
 ```python
+from collections import defaultdict
+
 k = 5
-total_recall = 0
+
+# 按資料來源分組統計
+stats = defaultdict(lambda: {
+    "total": 0,
+    "hit_count": 0,        # Hit Rate (單一)
+    "found_sum": 0,        # Partial Hit Rate 分子
+    "gold_sum": 0,         # Partial Hit Rate 分母
+    "rr_sum": 0.0,         # MRR 累計
+})
 
 for q in queries:
+    source = q["source_dataset"]
+    gold_ids = set(q["gold_doc_ids"])
+    
     # 您的系統檢索結果 (回傳 doc_ids)
     retrieved_ids = your_rag_system.retrieve(q["question"], top_k=k)
-  
+    
     # 計算找到幾篇 Gold Docs
-    gold_ids = set(q["gold_doc_ids"])
     found_count = sum(1 for doc_id in retrieved_ids if doc_id in gold_ids)
-  
-    # 計算該題召回分數 (找到篇數 / 總篇數)
-    score = found_count / len(gold_ids)
-    total_recall += score
-  
-    print(f"Question: {q['question']}")
-    print(f"Found {found_count}/{len(gold_ids)} gold docs.")
+    
+    # Hit Rate (單一): 至少找到 1 篇即算命中
+    hit = 1 if found_count > 0 else 0
+    
+    # 平均 RR: 所有黃金文檔排名倒數的平均
+    rr_list = []
+    for rank, doc_id in enumerate(retrieved_ids, start=1):
+        if doc_id in gold_ids:
+            rr_list.append(1.0 / rank)
+    avg_rr = sum(rr_list) / len(gold_ids) if len(gold_ids) > 0 else 0.0
+    
+    # 累計統計
+    stats[source]["total"] += 1
+    stats[source]["hit_count"] += hit
+    stats[source]["found_sum"] += found_count
+    stats[source]["gold_sum"] += len(gold_ids)
+    stats[source]["rr_sum"] += avg_rr
 
-average_recall = total_recall / len(queries)
-print(f"Average Recall@{k}: {average_recall:.2%}")
+# 輸出結果
+print("📊 按資料來源分組")
+print()
+
+for source in ["drcd", "squad", "hotpotqa", "2wiki"]:
+    s = stats[source]
+    if s["total"] == 0:
+        continue
+    
+    hit_rate = s["hit_count"] / s["total"]
+    partial_hit_rate = s["found_sum"] / s["gold_sum"] if s["gold_sum"] > 0 else 0
+    mrr = s["rr_sum"] / s["total"]
+    
+    print(f"【{source}】")
+    print(f"問題數:           {s['total']}")
+    print(f"Hit Rate (單一):  {hit_rate:.2%} ({s['total']} 題)")
+    print(f"Partial Hit Rate: {partial_hit_rate:.2%} ({s['found_sum']}/{s['gold_sum']})")
+    print(f"MRR:              {mrr:.4f}")
+    print()
 ```
 
 ### 3.2 生成指標：LLM-as-a-Judge

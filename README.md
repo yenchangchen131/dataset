@@ -1,10 +1,10 @@
 # 繁體中文 RAG 效能評測微型資料集 (Micro-Scale TC-RAG Benchmark)
 
-這是一個輕量級、針對繁體中文 RAG (Retrieval-Augmented Generation) 系統設計的評測資料集。透過從學術界標準資料集 (DRCD, SQuAD, HotpotQA, 2WikiMultiHopQA) 進行採樣與高品質翻譯，建立一個包含 **50 題問答 (Queries)** 與 **500 篇文檔 (Corpus)** 的測試基準。
+這是一個輕量級、針對繁體中文 RAG (Retrieval-Augmented Generation) 系統設計的評測資料集。透過從學術界標準資料集 (DRCD, HotpotQA, 2WikiMultiHopQA) 進行採樣與高品質翻譯，建立一個包含 **60 題問答 (Queries)** 與 **600 篇文檔 (Corpus)** 的測試基準。
 
 ## 🎯 專案目標
 
-- **輕量化**：僅 50 題，可快速驗證系統效能。
+- **輕量化**：僅 60 題，可快速驗證系統效能。
 - **在地化**：全數資料皆為台灣繁體中文 (Traditional Chinese, Taiwan)。
 - **高鑑別度**：包含單跳 (Single-hop) 與多跳 (Multi-hop) 推理題型，並混入與正解高度相似的干擾文檔 (Hard Negatives)。
 
@@ -12,15 +12,14 @@
 
 | 來源資料集 | 題型 | 數量 | 說明 |
 |------------|------|------|------|
-| **DRCD** | 單跳 | 15 | 原生繁體中文資料 |
-| **SQuAD** | 單跳 | 15 | 英文翻譯為繁中 |
-| **HotpotQA** | 多跳 | 10 | 英文翻譯為繁中 (含干擾項) |
-| **2Wiki** | 多跳 | 10 | 英文翻譯為繁中 (含干擾項) |
-| **總計** | - | **50** | |
+| **DRCD** | 單跳 | 20 | 原生繁體中文資料 |
+| **HotpotQA** | 多跳 | 20 | 英文翻譯為繁中 (含干擾項) |
+| **2Wiki** | 多跳 | 20 | 英文翻譯為繁中 (含干擾項) |
+| **總計** | - | **60** | |
 
-- **文檔庫 (Corpus)**: 總計 **500 篇**
-  - **Gold Contexts**: ~70 篇 (正解)
-  - **Negatives**: ~430 篇 (包含 Hard/Random Negatives)
+- **文檔庫 (Corpus)**: 總計 **600 篇**
+  - **Gold Contexts**: ~100 篇 (正解)
+  - **Negatives**: ~500 篇 (包含 Hard/Random Negatives)
 
 ## 🛠️ 安裝與環境設定
 
@@ -46,7 +45,7 @@
 請依序執行以下腳本以產生資料集：
 
 ### 0. 資料下載
-下載原始資料集 (DRCD, SQuAD, HotpotQA, 2WikiMultiHopQA) 至 `data/raw/` 目錄。
+下載原始資料集 (DRCD, HotpotQA, 2WikiMultiHopQA) 至 `data/raw/` 目錄。
 ```bash
 uv run src/data_download.py
 ```
@@ -77,6 +76,15 @@ uv run src/fix_questions.py
 uv run src/verify_data.py
 ```
 
+### 5. 問題抽換 (可選)
+若發現品質不佳的問題，可將其替換為同資料集的另一題。
+```bash
+uv run src/replace_question.py <question_id>
+```
+> - 會自動從同資料集隨機選取新題目，進行翻譯
+> - 同步更新 `queries.json`, `corpus.json`, `queries_raw.json`, `corpus_raw.json`
+> - 自動避免選取重複的問題
+
 ## 📂 檔案結構
 
 ```
@@ -84,17 +92,20 @@ uv run src/verify_data.py
 ├── data/
 │   ├── raw/               # 原始下載的資料集
 │   └── processed/         # 產出的最終資料集
-│       ├── queries.json   # 評測題庫 (50題)
-│       └── corpus.json    # 文檔庫 (500篇)
+│       ├── queries.json       # 評測題庫 (60題，已翻譯)
+│       ├── queries_raw.json   # 評測題庫 (60題，未翻譯)
+│       ├── corpus.json        # 文檔庫 (600篇，已翻譯)
+│       └── corpus_raw.json    # 文檔庫 (600篇，未翻譯)
 ├── src/
 │   ├── data_download.py   # [Step 0] 原始資料下載
 │   ├── process_data.py    # [Step 1] 採樣與提取
 │   ├── translate_data.py  # [Step 2] 翻譯
 │   ├── fix_questions.py   # [Step 3] 問題修復
 │   ├── verify_data.py     # [Step 4] 驗證
-│   └── inspect_suspicious.py # (工具) 檢視異常資料
+│   └── replace_question.py # [Step 5] 問題抽換
 ├── docs/
 │   └── Spec.md            # 詳細規格書
+├── usage_guide.md         # 使用指南與評測指標
 ├── .env                   # API Key 設定檔
 └── README.md              # 本文件
 ```

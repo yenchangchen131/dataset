@@ -14,22 +14,21 @@ from pathlib import Path
 from typing import Any
 
 # 設定隨機種子以確保可重現性
-random.seed(42)
+random.seed(11)
 
 # 路徑設定
 BASE_DIR = Path(__file__).parent.parent
 RAW_DIR = BASE_DIR / "data" / "raw"
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
-# 採樣配置
+# 採樣配置 (移除 SQuAD，共 60 題)
 SAMPLING_CONFIG = {
-    "drcd": {"count": 15, "type": "single-hop"},
-    "squad": {"count": 15, "type": "single-hop"},
-    "hotpotqa": {"count": 10, "type": "multi-hop"},
-    "2wiki": {"count": 10, "type": "multi-hop"},
+    "drcd": {"count": 20, "type": "single-hop"},
+    "hotpotqa": {"count": 20, "type": "multi-hop"},
+    "2wiki": {"count": 20, "type": "multi-hop"},
 }
 
-TOTAL_CORPUS_SIZE = 500
+TOTAL_CORPUS_SIZE = 600
 
 
 def generate_doc_id(source: str, original_id: str) -> str:
@@ -406,53 +405,75 @@ def collect_random_negatives(
     return random_negatives[:target_count]
 
 
+def collect_random_negatives_drcd_only(
+    drcd_data: list[dict],
+    used_contexts: set[str],
+    target_count: int
+) -> list[dict]:
+    """
+    從未使用的 DRCD contexts 中收集隨機負樣本
+    """
+    random_negatives = []
+    
+    for article in drcd_data:
+        for para in article.get("paragraphs", []):
+            context = para.get("context", "")
+            if context and context not in used_contexts:
+                doc_id = generate_doc_id("drcd", f"neg_{len(random_negatives)}")
+                random_negatives.append({
+                    "doc_id": doc_id,
+                    "content": context,
+                    "original_source": "drcd",
+                    "original_id": para.get("id", ""),
+                    "is_gold": False,
+                })
+                used_contexts.add(context)
+    
+    # 隨機打亂並取需要的數量
+    random.shuffle(random_negatives)
+    return random_negatives[:target_count]
+
+
 def main():
     print("=" * 60)
     print("開始資料提取與處理")
     print("=" * 60)
     
     # 載入原始資料
-    print("\n[1/5] 載入原始資料...")
+    print("\n[1/4] 載入原始資料...")
     drcd_data = load_json(RAW_DIR / "drcd.json")
-    squad_data = load_json(RAW_DIR / "squad.json")
     hotpotqa_data = load_json(RAW_DIR / "hotpotqa.json")
     wiki2_data = load_json(RAW_DIR / "2wiki.json")
     
     print(f"  - DRCD: {len(drcd_data)} 篇文章")
-    print(f"  - SQuAD: {len(squad_data)} 筆記錄")
     print(f"  - HotpotQA: {len(hotpotqa_data)} 筆記錄")
     print(f"  - 2Wiki: {len(wiki2_data)} 筆記錄")
     
     # 處理各資料集
-    print("\n[2/5] 處理 DRCD...")
+    print("\n[2/4] 處理 DRCD...")
     drcd_queries, drcd_gold_docs, drcd_used = process_drcd(
         drcd_data, SAMPLING_CONFIG["drcd"]["count"]
     )
     
-    print("\n[3/5] 處理 SQuAD...")
-    squad_queries, squad_gold_docs, squad_used = process_squad(
-        squad_data, SAMPLING_CONFIG["squad"]["count"]
-    )
-    
-    print("\n[4/5] 處理 HotpotQA...")
+    print("\n[3/4] 處理 HotpotQA...")
     hotpot_queries, hotpot_gold_docs, hotpot_hard_negs, hotpot_used = process_hotpotqa(
         hotpotqa_data, SAMPLING_CONFIG["hotpotqa"]["count"]
     )
     
-    print("\n[5/5] 處理 2WikiMultiHopQA...")
+    print("\n[4/4] 處理 2WikiMultiHopQA...")
     wiki2_queries, wiki2_gold_docs, wiki2_hard_negs, wiki2_used = process_2wiki(
         wiki2_data, SAMPLING_CONFIG["2wiki"]["count"]
     )
     
     # 合併所有 queries
-    all_queries = drcd_queries + squad_queries + hotpot_queries + wiki2_queries
+    all_queries = drcd_queries + hotpot_queries + wiki2_queries
     
     # 合併所有文檔
-    all_gold_docs = drcd_gold_docs + squad_gold_docs + hotpot_gold_docs + wiki2_gold_docs
+    all_gold_docs = drcd_gold_docs + hotpot_gold_docs + wiki2_gold_docs
     all_hard_negatives = hotpot_hard_negs + wiki2_hard_negs
     
     # 記錄所有已使用的 contexts
-    all_used_contexts = drcd_used | squad_used | hotpot_used | wiki2_used
+    all_used_contexts = drcd_used | hotpot_used | wiki2_used
     
     # 計算需要多少隨機負樣本
     current_corpus_size = len(all_gold_docs) + len(all_hard_negatives)
@@ -463,10 +484,10 @@ def main():
     print(f"  - 困難負樣本: {len(all_hard_negatives)} 篇")
     print(f"  - 需要隨機負樣本: {needed_random_negs} 篇")
     
-    # 收集隨機負樣本
+    # 收集隨機負樣本 (只從 DRCD 收集，因為已移除 SQuAD)
     if needed_random_negs > 0:
-        random_negatives = collect_random_negatives(
-            squad_data, drcd_data, all_used_contexts, needed_random_negs
+        random_negatives = collect_random_negatives_drcd_only(
+            drcd_data, all_used_contexts, needed_random_negs
         )
         print(f"  - 收集到隨機負樣本: {len(random_negatives)} 篇")
     else:
@@ -484,7 +505,6 @@ def main():
     print("=" * 60)
     print(f"總 QA 數量: {len(all_queries)}")
     print(f"  - DRCD (繁中/單跳): {len(drcd_queries)}")
-    print(f"  - SQuAD (英文/單跳): {len(squad_queries)}")
     print(f"  - HotpotQA (英文/多跳): {len(hotpot_queries)}")
     print(f"  - 2Wiki (英文/多跳): {len(wiki2_queries)}")
     print(f"\n總文檔數量: {len(all_corpus)}")

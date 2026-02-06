@@ -34,7 +34,7 @@ PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
 # 翻譯設定
 MODEL = "gpt-4o-mini"
-MAX_WORKERS = 10  # 並行執行緒數
+MAX_WORKERS = 20  # 並行執行緒數
 MAX_RETRIES = 3   # 最大重試次數
 
 
@@ -61,11 +61,12 @@ def translate_text(text: str, context_type: str = "general") -> str:
     system_prompt = """你是一位專業的英翻繁體中文翻譯專家。請將以下英文文本翻譯成流暢、自然的台灣繁體中文。
 
 翻譯要求：
-1. 保持原文的語意和語氣
-2. 人名、地名等專有名詞使用台灣常見的翻譯方式
+1. 保持原文的語意和語氣(如果是問句就保持問句、直述句就保持直述句)，不要自行修正原文的語詞、句型。
+2. 人名、地名等專有名詞使用台灣常見的翻譯方式，然後用括號標註原文
 3. 數字、日期格式保持原樣
 4. 如果原文已經是中文，直接返回原文
-5. 只返回翻譯結果，不要添加任何解釋或說明"""
+5. 只返回翻譯結果，不要添加任何解釋或說明
+6. 嚴格禁止回答問題，僅進行翻譯"""
 
     for attempt in range(MAX_RETRIES):
         try:

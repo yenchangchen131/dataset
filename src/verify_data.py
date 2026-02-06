@@ -4,7 +4,7 @@
 
 驗證項目：
 1. 檔案存在性
-2. 資料數量 (50 QA, 500 Docs)
+2. 資料數量 (60 QA, 600 Docs)
 3. 欄位完整性與型別
 4. 資料一致性 (Gold Doc IDs 存在於 Corpus)
 5. 語言檢查 (簡單檢查是否包含中文字元)
@@ -17,6 +17,15 @@ from collections import Counter
 # 路徑設定
 BASE_DIR = Path(__file__).parent.parent
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
+
+# 預期值配置
+EXPECTED_QUERIES = 60
+EXPECTED_CORPUS = 600
+EXPECTED_DISTRIBUTION = {
+    "drcd": 20,
+    "hotpotqa": 20,
+    "2wiki": 20
+}
 
 def load_json(filepath: Path) -> list[dict]:
     """載入 JSON 檔案"""
@@ -35,108 +44,149 @@ def main():
     print("開始資料驗證")
     print("=" * 60)
     
-    queries_path = PROCESSED_DIR / "queries.json"
-    corpus_path = PROCESSED_DIR / "corpus.json"
-    
-    # 1. 檔案存在性
-    if not queries_path.exists():
-        print(f"[FAIL] 找不到 {queries_path}")
-        return
-    if not corpus_path.exists():
-        print(f"[FAIL] 找不到 {corpus_path}")
-        return
-        
-    print("[PASS] 檔案存在")
-    
-    # 載入資料
-    queries = load_json(queries_path)
-    corpus = load_json(corpus_path)
-    
-    # 2. 資料數量驗證
-    print(f"\n[數量驗證]")
-    print(f"  - Queries: {len(queries)} (預期 50)")
-    print(f"  - Corpus: {len(corpus)} (預期 500)")
-    
-    if len(queries) == 50:
-        print("[PASS] Queries 數量正確")
-    else:
-        print(f"[FAIL] Queries 數量錯誤: {len(queries)}")
-        
-    if len(corpus) == 500:
-        print("[PASS] Corpus 數量正確")
-    else:
-        print(f"[FAIL] Corpus 數量錯誤: {len(corpus)}")
-        
-    # 3. 分佈驗證
-    print(f"\n[分佈驗證]")
-    sources = Counter(q.get("source_dataset") for q in queries)
-    print(f"  - 分佈: {dict(sources)}")
-    
-    expected_sources = {
-        "drcd": 15,
-        "squad": 15,
-        "hotpotqa": 10,
-        "2wiki": 10
+    # 檔案路徑定義
+    files = {
+        "queries": PROCESSED_DIR / "queries.json",
+        "corpus": PROCESSED_DIR / "corpus.json",
+        "queries_raw": PROCESSED_DIR / "queries_raw.json",
+        "corpus_raw": PROCESSED_DIR / "corpus_raw.json"
     }
     
-    if sources == expected_sources:
-        print("[PASS] 資料來源分佈正確")
-    else:
-        print(f"[FAIL] 資料來源分佈錯誤: 預期 {expected_sources}")
-        
-    types = Counter(q.get("question_type") for q in queries)
-    print(f"  - 類型: {dict(types)}")
+    # 載入資料
+    data = {}
+    print("[1. 檔案存在性檢查]")
+    for name, path in files.items():
+        if path.exists():
+            print(f"  [PASS] {name} 存在")
+            try:
+                data[name] = load_json(path)
+            except Exception as e:
+                print(f"  [FAIL] {name} 讀取失敗: {e}")
+        else:
+            print(f"  [WARN] {name} 不存在 (部分驗證將跳過)")
+            
+    # Processed Data 驗證
+    queries = data.get("queries")
+    corpus = data.get("corpus")
     
-    # 4. 一致性驗證
-    print(f"\n[一致性驗證]")
-    corpus_ids = {d.get("doc_id") for d in corpus}
-    
-    missing_docs = []
-    gold_doc_counts = []
-    
-    for q in queries:
-        golds = q.get("gold_doc_ids", [])
-        gold_doc_counts.append(len(golds))
-        for gid in golds:
-            if gid not in corpus_ids:
-                missing_docs.append((q.get("question_id"), gid))
-    
-    if not missing_docs:
-        print("[PASS] 所有 Gold Doc IDs 皆存在於 Corpus")
-    else:
-        print(f"[FAIL] 發現 {len(missing_docs)} 個缺失的 Gold Docs")
-        
-    print(f"  - 每個問題的 Gold Docs 數量範圍: {min(gold_doc_counts)} - {max(gold_doc_counts)}")
+    if queries:
+        print(f"\n[Processed Queries 驗證]")
+        # 數量
+        if len(queries) == EXPECTED_QUERIES:
+            print(f"  [PASS] 數量正確: {len(queries)}")
+        else:
+            print(f"  [FAIL] 數量錯誤: {len(queries)} (預期 {EXPECTED_QUERIES})")
+            
+        # 分佈
+        sources = Counter(q.get("source_dataset") for q in queries)
+        if sources == EXPECTED_DISTRIBUTION:
+            print(f"  [PASS] 來源分佈正確: {dict(sources)}")
+        else:
+            print(f"  [FAIL] 來源分佈錯誤: {dict(sources)}")
+            
+        # 重複性
+        q_ids = [q['question_id'] for q in queries]
+        dup_q_ids = [item for item, count in Counter(q_ids).items() if count > 1]
+        if not dup_q_ids:
+            print("  [PASS] 無重複 ID")
+        else:
+            print(f"  [FAIL] 發現 {len(dup_q_ids)} 個重複 ID")
+            
+        # 語言檢查 (非 DRCD)
+        q_errors = 0
+        non_drcd = [q for q in queries if q.get("source_dataset") != "drcd"]
+        for q in non_drcd:
+            if not contains_chinese(q.get("question", "")):
+                q_errors += 1
+        if q_errors == 0:
+            print(f"  [PASS] 非 DRCD 問題皆包含中文 ({len(non_drcd)} 題)")
+        else:
+            print(f"  [WARN] {q_errors} 題可能未翻譯")
 
-    # 5. 語言檢查
-    print(f"\n[語言檢查 (抽樣)]")
-    # 檢查非 DRCD 的樣本是否包含中文
-    non_drcd_queries = [q for q in queries if q.get("source_dataset") != "drcd"]
-    non_drcd_corpus = [d for d in corpus if d.get("original_source") != "drcd"]
-    
-    q_errors = 0
-    c_errors = 0
-    
-    for q in non_drcd_queries:
-        if not contains_chinese(q.get("question", "")):
-            q_errors += 1
+    if corpus:
+        print(f"\n[Processed Corpus 驗證]")
+        # 數量
+        if len(corpus) == EXPECTED_CORPUS:
+            print(f"  [PASS] 數量正確: {len(corpus)}")
+        else:
+            print(f"  [FAIL] 數量錯誤: {len(corpus)} (預期 {EXPECTED_CORPUS})")
             
-    for c in non_drcd_corpus:
-        if not contains_chinese(c.get("content", "")):
-            c_errors += 1
+        # 語言檢查
+        c_errors = 0
+        non_drcd = [d for d in corpus if d.get("original_source") != "drcd"]
+        for c in non_drcd:
+            if not contains_chinese(c.get("content", "")):
+                c_errors += 1
+        if c_errors == 0:
+            print(f"  [PASS] 非 DRCD 文檔皆包含中文 ({len(non_drcd)} 篇)")
+        else:
+            print(f"  [WARN] {c_errors} 篇可能未翻譯")
             
-    if q_errors == 0:
-        print(f"[PASS] 所有非 DRCD Queries ({len(non_drcd_queries)}) 皆包含繁體中文")
-    else:
-        print(f"[WARN] 有 {q_errors} 個 Queries 可能未翻譯成功")
+    # Processed 一致性 (需兩者都在)
+    if queries and corpus:
+        print(f"\n[Processed 一致性驗證]")
+        corpus_ids = {d.get("doc_id") for d in corpus}
+        missing_docs = []
+        for q in queries:
+            for gid in q.get("gold_doc_ids", []):
+                if gid not in corpus_ids:
+                    missing_docs.append((q.get("question_id"), gid))
         
-    if c_errors == 0:
-        print(f"[PASS] 所有非 DRCD Corpus ({len(non_drcd_corpus)}) 皆包含繁體中文")
-    else:
-        print(f"[WARN] 有 {c_errors} 個 Corpus 可能未翻譯成功")
-        
+        if not missing_docs:
+            print("  [PASS] 所有 Gold Doc IDs 皆存在於 Corpus")
+        else:
+            print(f"  [FAIL] 發現 {len(missing_docs)} 個缺失文檔")
+
+    # Raw Data 驗證
+    queries_raw = data.get("queries_raw")
+    corpus_raw = data.get("corpus_raw")
+    
+    if queries_raw:
+        print(f"\n[Raw Queries 驗證]")
+        if len(queries_raw) == EXPECTED_QUERIES:
+            print(f"  [PASS] 數量正確: {len(queries_raw)}")
+        else:
+            print(f"  [FAIL] 數量錯誤: {len(queries_raw)}")
+            
+        # 重複性
+        q_raw_ids = [q['question_id'] for q in queries_raw]
+        dup_raw = [item for item, count in Counter(q_raw_ids).items() if count > 1]
+        if not dup_raw:
+            print("  [PASS] 無重複 ID")
+        else:
+            print(f"  [FAIL] 發現 {len(dup_raw)} 個重複 ID")
+            
+    if corpus_raw:
+        print(f"\n[Raw Corpus 驗證]")
+        if len(corpus_raw) == EXPECTED_CORPUS:
+            print(f"  [PASS] 數量正確: {len(corpus_raw)}")
+        else:
+            print(f"  [FAIL] 數量錯誤: {len(corpus_raw)}")
+
+    # Raw vs Processed 一致性
+    if queries and queries_raw:
+        print(f"\n[Queries vs Raw 一致性]")
+        if len(queries) == len(queries_raw):
+            print("  [PASS] 數量一致")
+        else:
+            print(f"  [FAIL] 數量不一致 ({len(queries)} vs {len(queries_raw)})")
+            
+        q_ids = set(q['question_id'] for q in queries)
+        r_ids = set(q['question_id'] for q in queries_raw)
+        if q_ids == r_ids:
+            print("  [PASS] ID 集合一致")
+        else:
+            print("  [FAIL] ID 集合不一致")
+            
+    if corpus and corpus_raw:
+        print(f"\n[Corpus vs Raw 一致性]")
+        if len(corpus) == len(corpus_raw):
+            print("  [PASS] 數量一致")
+        else:
+            print(f"  [FAIL] 數量不一致 ({len(corpus)} vs {len(corpus_raw)})")
+
     print(f"\n{'=' * 60}")
-    print("驗證完成！")
+    print("驗證完成")
     print("=" * 60)
 
 if __name__ == "__main__":

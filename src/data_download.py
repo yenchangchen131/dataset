@@ -10,10 +10,9 @@ from datasets import load_dataset
        避免 HuggingFace 預設的 JSON Lines 導致讀取錯誤。
     
 資料集清單:
-    1. SQuAD (Validation)
-    2. DRCD (Test)
-    3. HotpotQA (Distractor/Validation)
-    4. 2WikiMultiHopQA (Validation)
+    1. DRCD (Test)
+    2. HotpotQA (Distractor/Validation)
+    3. 2WikiMultiHopQA (Validation)
 """
 
 # --- 1. 路徑設定 (Path Configuration) ---
@@ -27,9 +26,6 @@ print(f"📂 原始資料儲存路徑: {DATA_DIR}")
 
 # --- 2. 資料集清單設定 (Dataset Config) ---
 TARGET_DATASETS = {
-    # [Single-hop] SQuAD
-    "squad": ("squad", None, "validation"),
-
     # [Single-hop] DRCD
     "drcd": ("voidful/drcd", None, "test"),
 

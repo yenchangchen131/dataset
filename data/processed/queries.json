@@ -1,524 +1,648 @@
 [
   {
-    "question_id": "58e6f045-3ed7-55d6-a5d7-950baed4b07a",
-    "question": "台灣於何年開始實施九年國民義務教育?",
-    "gold_answer": "1968年",
+    "question_id": "385b2b85-a6df-5eb7-832d-dee2fd1d7184",
+    "question": "議長的權限在哪一場革命中遭到削減?",
+    "gold_answer": "「1910年革命」",
     "gold_doc_ids": [
-      "164a54d5-3acc-57e7-9008-cbbb15d1badd"
+      "394b30e1-df18-5625-a46f-4f697ecbffb2"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "228441b3-2799-52b0-869b-c9f33be26e7b",
-    "question": "夜柔吠陀與阿闥婆吠陀均可以最為研究哪一門語言的參考？",
-    "gold_answer": "梵語",
+    "question_id": "1379ef19-5c57-5db3-82d9-7cdbcd0740ce",
+    "question": "哪種主義是將原有的蘇聯式體制轉化為適合南斯拉夫的模式?",
+    "gold_answer": "狄托主義",
     "gold_doc_ids": [
-      "abd419c5-600c-589e-bc7f-05df368fd286"
+      "95e36742-c22b-5d28-8e29-f92075afc4d1"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "cc5e4f4d-3b89-53e2-b9d6-c16aed8cdd52",
-    "question": "高句麗在直到滅亡前多久時間其首都都在長安城？",
-    "gold_answer": "83年",
+    "question_id": "55d2e823-9ffc-5e1c-a07a-323ee626ae9c",
+    "question": "哪一個朝代是妃嬪位號最多的時代?",
+    "gold_answer": "北齊",
     "gold_doc_ids": [
-      "e1026d55-4b5d-52bd-bca2-4869c4673603"
+      "aa797e7a-6cd2-55b2-b8f2-4c05bacebf31"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "80c3df46-5972-5e17-91a0-ef040856df30",
-    "question": "加拿大軍事基地溫尼伯分基地目前位於何處?",
-    "gold_answer": "溫尼伯國際機場",
+    "question_id": "912020d1-7096-565a-92eb-774ddece4186",
+    "question": "為什麼當時很少科學家對通古斯大爆炸感興趣?",
+    "gold_answer": "通古斯地區過於偏遠",
     "gold_doc_ids": [
-      "d0275496-cb9d-5d10-9c34-0533858cdcdc"
+      "92beb73f-a62c-5ce7-aea2-b79521ab97d0"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "09b845f2-3a1a-5509-972b-a278eceb73e6",
-    "question": "哪一種稻米有8成左右的澱粉不是直鏈澱粉？",
-    "gold_answer": "秈稻",
+    "question_id": "94f1ef92-24d8-5283-8b09-23ae47667525",
+    "question": "從什麼時候開始，人民幣的匯率參考對象正式為一籃子貨幣?",
+    "gold_answer": "2005年7月21日",
     "gold_doc_ids": [
-      "a5a7c058-6a5b-57cd-b279-e35eb35e6126"
+      "050975b5-c0cd-5bba-bb6d-699ea30b71fa"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "fd2f1abe-29cd-50ca-b88b-1f0b8ef34484",
-    "question": "滬寧鐵路在哪一年的時候開始動工?",
-    "gold_answer": "1905年",
+    "question_id": "ac568353-32f7-5d8e-bf72-3bd6f6dd0ed6",
+    "question": "英屬維京群島以北是哪塊海域?",
+    "gold_answer": "北大西洋",
     "gold_doc_ids": [
-      "9b3d493f-1642-5136-b6cd-168e64014f8b"
+      "9f6d00fe-0514-501e-ac88-fde0b04c11f2"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "3cf8e5a7-0512-592b-a7ae-7866858aa744",
-    "question": "蔣中正施行白色恐怖的原因有二，除了為了穩固政權之外，另一項原因為何?",
-    "gold_answer": "防止中國共產黨滲透",
+    "question_id": "2f40e185-7601-54fb-9407-2467213ff3c9",
+    "question": "誰與織田信長稱霸日本的時代為安土桃山時代?",
+    "gold_answer": "豐臣秀吉",
     "gold_doc_ids": [
-      "e17f306b-5dac-5295-aacf-f7cf9176ea19"
+      "61ce2c56-d8e8-56fa-8acf-311c52b30483"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "e75fdd88-a987-5371-a179-8fff025947d5",
-    "question": "很多人認為在什麼時間之後韓國就不再是漢江奇蹟？",
-    "gold_answer": "1997年",
+    "question_id": "3ec5c37c-c4a8-5662-ba40-94e6b77b70d2",
+    "question": "中央電視台高清影視頻道自2008年起轉型為哪一個頻道?",
+    "gold_answer": "中央電視台高清綜合頻道",
     "gold_doc_ids": [
-      "3db877db-add1-597d-9b7e-f7f3662ffaae"
+      "b709134d-6c43-5197-a919-e89407793407"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "acd1f744-1ca5-5e9e-bc0c-4d715872a64d",
-    "question": "東德有多少比例的婦女在到1989年前都有參與工作？",
-    "gold_answer": "92%",
+    "question_id": "0780bbe8-1fd2-5660-9877-29f548eb8690",
+    "question": "世上已知體毛最旺盛的人種是哪一個種族?",
+    "gold_answer": "阿伊努人",
     "gold_doc_ids": [
-      "32bf09a0-7393-57b3-92c9-dbe2412cf0ab"
+      "517db6fa-a911-55a8-8b11-267e3a252970"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "284072b1-7a71-5d50-876b-e380b3811f34",
-    "question": "經濟部的前身實業部是依據哪一條章於1912年首次設立的?",
-    "gold_answer": "《中華民國臨時政府組織大綱》",
+    "question_id": "9204393b-1fec-5d6f-b0c9-bc534aad9b95",
+    "question": "文中提及，也可以定義角的幾何學為哪一個?",
+    "gold_answer": "非歐幾里得幾何",
     "gold_doc_ids": [
-      "8fce8aec-9640-5fec-9071-f0baa1d738cc"
+      "93e72b8a-4866-55c4-928e-932d961842fd"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "72412e3a-f166-5cf0-a973-78a4256a55a8",
-    "question": "過氧乙醚在什麼樣的情況下有可能發生爆炸?",
-    "gold_answer": "乾燥",
+    "question_id": "d8199daf-6794-51e8-ad1f-c94c46ff1ce9",
+    "question": "埃歐的赤道和極區之間在光度上的變化是由何人首次發現到的?",
+    "gold_answer": "巴納德",
     "gold_doc_ids": [
-      "b73e5337-063d-544b-9b42-dfac24025696"
+      "8006cbff-e225-50ed-869f-dabe48c99f4f"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "05b2e67a-c9a6-5298-a026-2bbcb750367c",
-    "question": "馬祖列島的地形中有很多崩崖與險礁之成因統稱為什麼？",
-    "gold_answer": "侵蝕作用",
+    "question_id": "2fc12655-3223-5942-97d2-15a8d9523a82",
+    "question": "「太陽一號」是甚麼設施?",
+    "gold_answer": "集中式太陽能發電站",
     "gold_doc_ids": [
-      "2ccfcc2b-d812-5902-a49d-7c96cbcffdc2"
+      "4b325718-3339-51cd-8496-d3682589f865"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "2498fa5a-33fe-5bfa-9913-88e7d97dd684",
-    "question": "在2010年行政院大陸委員會所作的的民意調查中，大多數的台灣人認為應該如何處理兩岸關係?",
-    "gold_answer": "應該維持現狀",
+    "question_id": "d860a7aa-5e76-57b7-9e4f-6d6048108712",
+    "question": "東羅馬帝國最主要的財政來源是什麼?",
+    "gold_answer": "商業貿易中徵收的關稅和貿易稅",
     "gold_doc_ids": [
-      "24342d7d-74aa-5193-9af5-17a6700e7d4b"
+      "dd656858-0b68-54d2-9fae-f58950710629"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "3ffe2cf2-8457-594a-8f29-313646bff106",
-    "question": "法蘭克福為第二大都市圈，僅次於哪個城市?",
-    "gold_answer": "萊茵魯爾",
+    "question_id": "458501a5-d0d0-547c-b101-b23eab69e38e",
+    "question": "曼尼托巴省在一月和二月時，為什麼會暴露於來自西北的北極高壓空氣團的?",
+    "gold_answer": "大致平坦的地貌",
     "gold_doc_ids": [
-      "dc157431-bbee-57af-844d-61eab593d534"
+      "74c06f27-fc95-5aa1-9e2d-56efe7827f8f"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "019accfb-551f-5165-90c1-98f29cb80706",
-    "question": "六七暴動中，損失最多的是什麼身分的人?",
-    "gold_answer": "福建華僑",
+    "question_id": "fb2ac4e6-e007-5b83-89c1-570a1ebadd0c",
+    "question": "於421年遣使到宋廷入貢的人為誰?",
+    "gold_answer": "陽邁一世",
     "gold_doc_ids": [
-      "e7a58ec0-9d25-55ae-9dc3-94fc561ace47"
+      "25d3ab20-e6ae-5f22-bcd9-eb55d06851a2"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "6ab7ce95-03ab-552f-8e92-18e1b405fead",
-    "question": "1983年特別節目《五位醫生》的首播時間是什麼時候？",
-    "gold_answer": "23 November",
+    "question_id": "0a4ce7f2-0e3c-5291-817a-bb8cbd57b425",
+    "question": "大理國是何人建立的?",
+    "gold_answer": "段思平",
     "gold_doc_ids": [
-      "dcb95d01-401b-52c5-b581-144289b2ecaf"
+      "6681d917-bc5a-5753-853c-c41e8c106317"
     ],
-    "source_dataset": "squad",
+    "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "9b5e78a5-1a9d-5ab9-9edd-62e94bd0876a",
-    "question": "國會的重要性是什麼？",
-    "gold_answer": "大陸會議的格式以及計畫中的許多細節成為獨立戰爭期間邦聯的原型。",
+    "question_id": "f189e4f5-177a-5da7-8827-2a64ab29466b",
+    "question": "孩子出生後應立即評估五項生體狀況，心跳頻率，呼吸，肌肉張力，皮膚顏色，以及哪一項?",
+    "gold_answer": "對刺激的回應",
     "gold_doc_ids": [
-      "e814881d-2f41-5033-bc96-7fb457b6b5b8"
+      "45efb487-db44-5af4-b161-0746591859be"
     ],
-    "source_dataset": "squad",
+    "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "c8030c95-5100-5131-bc13-531fce69a38a",
-    "question": "在美國聯合衛理公會（UMC）內，基本的組織單位是地方教會。",
-    "gold_answer": "年度會議",
+    "question_id": "41c69c08-fab5-542c-833b-38ef294ef3ab",
+    "question": "伽利略去世後他的合法繼承人是誰?",
+    "gold_answer": "文森特",
     "gold_doc_ids": [
-      "6f49a59a-46da-5342-b564-dc22687e10bc"
+      "198fa7c7-809d-58e5-9a94-16cd51568f4a"
     ],
-    "source_dataset": "squad",
+    "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "16f421a4-e14f-53e9-a6e5-7bca938cba39",
-    "question": "沃納·辛巴克是誰？",
-    "gold_answer": "基於這個語音電話網路設計了一個數據網路，以連接通用電氣的四個電腦銷售和服務中心。",
+    "question_id": "9a74ae47-17de-59ec-b4ee-cd9f704b2643",
+    "question": "人類的夫妻關係在哪一時代逐漸確立?",
+    "gold_answer": "新石器時代",
     "gold_doc_ids": [
-      "34df90b3-ac32-57a5-b18d-c7ce005dd52f"
+      "33761f9c-fb38-5d24-b2c1-474250d647ca"
     ],
-    "source_dataset": "squad",
+    "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "7cf286a2-72e2-55ee-81a9-10614c5a1deb",
-    "question": "歐洲最大的巡迴嘉年華會何時舉行？",
-    "gold_answer": "每年六月",
+    "question_id": "340351ef-cf5c-5c43-8171-b0356d8c7888",
+    "question": "中國人民解放軍在1973年將什麼工作移交至公安機關?",
+    "gold_answer": "邊防具體業務工作",
     "gold_doc_ids": [
-      "a7c4aeac-852f-544d-a4a5-d31f8599f354"
+      "615ff319-b55e-58f0-95a9-62b4aa54d172"
     ],
-    "source_dataset": "squad",
+    "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "3a24f03d-f8b4-565e-989b-66e1dd9408d1",
-    "question": "伊克巴爾何時當選穆斯林聯盟主席？",
-    "gold_answer": "1930",
+    "question_id": "358f37ed-7357-534b-b7c7-ab30886c0c2b",
+    "question": "除了「I'm Not in Love」之外，Eric Stewart 和 Graham Gouldman 的樂隊在1975年專輯中的另一首單曲是什麼？",
+    "gold_answer": "生活就像一碗雜菜湯",
     "gold_doc_ids": [
-      "240920e2-50de-5e6e-93d0-72759625f5e1"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "3b5c6454-eabc-5f21-828d-8550eec57978",
-    "question": "澳洲教育體系的第一個教育模式是什麼？",
-    "gold_answer": "主要的",
-    "gold_doc_ids": [
-      "da5e2be0-3b3b-584d-9414-7b88b7d31a4d"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "fc0c588b-bbfb-51b6-b55e-25b0507969e1",
-    "question": "這所學校是否與任何宗派正式相關聯？",
-    "gold_answer": "它從未與任何特定的宗派有關聯。",
-    "gold_doc_ids": [
-      "691431b7-12f8-5732-a5dd-18e6ed5d0bb9"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "7901e3f5-e15e-56f6-8e5b-a47253cfbd60",
-    "question": "歷史上，衛理公會支持過哪些運動？",
-    "gold_answer": "禁酒運動",
-    "gold_doc_ids": [
-      "8c34b563-fa44-5f3c-887f-4ad5fd203474"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "d765e3e5-ce72-5b7a-8b0d-204da58fa58e",
-    "question": "在《神秘博士》的哪一集提到過他有一個兄弟？",
-    "gold_answer": "史密斯和瓊斯",
-    "gold_doc_ids": [
-      "189bfb9b-e875-546d-955a-118b7febadf3"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "fa5d56a9-247a-543a-8e72-8650a8c2a859",
-    "question": "路德將救贖置於何處？",
-    "gold_answer": "與父親同在",
-    "gold_doc_ids": [
-      "dc4ac34e-9dd5-5d5b-889e-87abbf7a0e54"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "0212be62-b094-575f-9916-7e914c575853",
-    "question": "建築的三個部門是什麼？",
-    "gold_answer": "建築、基礎設施和工業",
-    "gold_doc_ids": [
-      "7be9f1b2-8fea-5a58-947a-b517e81df41c"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "50bdf9e8-2440-5231-924b-ea376756280f",
-    "question": "布哈拉的領導者們對蒙古攻擊的反應是什麼？",
-    "gold_answer": "打開了大門",
-    "gold_doc_ids": [
-      "97a073f2-a6d0-56fa-bbc5-d90c6fff4fad"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "247d079f-958a-5687-8c56-373033fd878f",
-    "question": "法國在何年對蒙彼利埃發動圍 siege？",
-    "gold_answer": "1622",
-    "gold_doc_ids": [
-      "9fd45d5f-4892-5be1-b3a5-91db512bedac"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "57fc976d-e05a-5991-9b20-80f8228b7ce0",
-    "question": "誰在1989年結束了這個系列？",
-    "gold_answer": "喬納森·鮑威爾",
-    "gold_doc_ids": [
-      "e3d95291-ecf9-5c90-adb6-dbb285756d7a"
-    ],
-    "source_dataset": "squad",
-    "question_type": "single-hop"
-  },
-  {
-    "question_id": "7948ebb6-96d2-5a99-973c-288d2a67cb95",
-    "question": "根據2010年的人口數據，圍繞聖瑪利亞傳教所建立的城市人口為多少？",
-    "gold_answer": "2,627",
-    "gold_doc_ids": [
-      "fd2bdc02-aba1-557c-80ba-548eebc13cd9",
-      "8c695d4a-b072-5b23-8e4d-6062b9f82e8f"
+      "9ffd3359-2d2d-5022-b8ed-5986a16c2085",
+      "990225d0-0517-5b51-9473-83646ca3d8bb"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "e7124c20-75c2-5d99-9acf-d2cba40228fa",
-    "question": "Cardinal Health 和 Kansas City Southern 是否位於同一州？",
+    "question_id": "cb63fab6-99c7-57e1-b9dc-41a2dbe31c53",
+    "question": "誰是Maroon 5第六張錄音室專輯的主唱？",
+    "gold_answer": "亞當·萊文 (Adam Levine)",
+    "gold_doc_ids": [
+      "d6175e45-2ec1-59c0-ad99-17f37c4fd98b",
+      "97c8c772-bef9-5e07-a8e6-384b58417056"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "e88a13c6-7734-5e69-94c1-f7976be92709",
+    "question": "Jasmin Geljo 以他在 2005 年的後末日恐怖片中的角色而聞名，這部電影是由誰編劇和導演的？",
+    "gold_answer": "喬治·A·羅梅羅 (George A. Romero)",
+    "gold_doc_ids": [
+      "3205dc30-84b5-54b2-8921-14e362a2a498",
+      "3ff52047-1b50-559f-8e01-768d526a7db6"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "004e5b34-aa09-568e-9fa0-b096b8a85e4d",
+    "question": "讓-皮埃爾·奧爾諾（Jean-Pierre Aulneau de le Touche）神父在他能夠前往位於哪個州的曼丹（Mandan）探險之前就被殺了？",
+    "gold_answer": "北達科他州 (North Dakota)",
+    "gold_doc_ids": [
+      "1b38d005-6dfd-50c8-a10f-d35ed43d7772",
+      "bb2d66a9-df51-550e-bb9d-f928b06be557"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "71f6c9e6-81e0-5711-a20d-b3d5c50d1a9e",
+    "question": "這位於1847年出生的德國作曲家、鋼琴家、管風琴家和指揮家活躍於哪個時期，他的作品《婚禮進行曲》成為任何「婚禮進行曲」的參考？",
+    "gold_answer": "早期浪漫時期",
+    "gold_doc_ids": [
+      "75e074ff-9c9e-5369-99b1-96e15eb51c47",
+      "4c83a5f4-97f7-5198-a49b-5c32e5d813ad"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "6e8e0cf2-4e8c-5e8f-ac29-47353540c397",
+    "question": "菲律賓大學(The Philippines University)和北角大學(The NorthCap University)，哪一個位於印度？",
+    "gold_answer": "北角大學 (The NorthCap University)",
+    "gold_doc_ids": [
+      "276de3ed-4856-5660-9710-480609e64071",
+      "034dd7a8-c5e5-52a6-9d5f-f36b0f54c77f"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "ae6938d0-49f6-56db-a563-fb6071a09d52",
+    "question": "格倫·比德米德（Glenn Bidmead）和雅各布·霍加德（Jacob Hoggard）都是吉他手嗎？",
     "gold_answer": "不",
     "gold_doc_ids": [
-      "39d13fa0-7121-53af-88bd-99a19bff95ac",
-      "6722c37f-a1cd-5141-a999-c041aec357b0"
+      "3d2de7e2-678c-5a84-86f4-2ce20774659b",
+      "72f857c2-1407-5bb0-a70f-33475d6f2232"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "4ed67ed4-6e1d-5d52-81d7-edd7f762a881",
-    "question": "Securinega 和 Zamioculcas 都是什麼的例子？",
-    "gold_answer": "植物的屬",
+    "question_id": "fc30d5c9-62cc-52e0-aab9-13d5b4bd16cb",
+    "question": "哪個汽車俱樂部在加州和印第安納波利斯舉辦經過認可的賽事？",
+    "gold_answer": "美國汽車俱樂部 (United States Auto Club)",
     "gold_doc_ids": [
-      "69fcbdaf-218f-5712-a859-8cf223e12157",
-      "ca4c3384-f889-519e-bbd7-9efa8a8c3441"
+      "06430608-5872-5bdc-b04b-e2c9f683483a",
+      "a8367ce6-f7ab-54d2-b236-28b3494907de"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "76fcdc0d-c3a3-528d-8c7f-157863f84977",
-    "question": "一位巴基斯坦攝影師曾擔任一位巴基斯坦政治家的私人攝影師，這位政治家於1973年至1977年擔任巴基斯坦總理，並且在此之前還擔任過什麼政治職位？",
-    "gold_answer": "巴基斯坦總統",
+    "question_id": "1f6dc4ed-a3a3-564c-b61a-f43928865588",
+    "question": "墨西哥錫那羅亞州(Sinaloa)的維拉烏尼翁（Villa Unión）位於哪個州？",
+    "gold_answer": "下加利福尼亞半島(Baja California)的尖端",
     "gold_doc_ids": [
-      "e87281b8-5efd-5b42-83a7-c9b5bda81f14",
-      "8b19d984-9871-551b-a8a1-55fd1bcf1246"
+      "519d45b6-1ce5-5de5-90f9-921020262001",
+      "e4998958-390f-510c-9f41-f1023b2f7aba"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "f2a189df-0049-581d-8473-f4fc62797520",
-    "question": "這位受歡迎的《電子學入門》一書的作者在什麼州創立了微型儀器與遙測系統公司（MITS）？",
-    "gold_answer": "阿爾伯克基，新墨西哥州",
+    "question_id": "06fa1e1a-d488-55ad-bf9d-48c2ee73e824",
+    "question": "擁有一條馬克六號單軌列車的非營利公司是由誰協助進行債券融資的？",
+    "gold_answer": "內華達州 (Nevada)",
     "gold_doc_ids": [
-      "c3b7e790-527e-59bb-9198-20f3bf2a2f28",
-      "5530f020-1c52-5e1a-9f0b-1be4836b57ef"
+      "508d198d-074f-570f-b223-2afa70b31617",
+      "ab0de328-1f8b-5d54-90e0-ed8ae27d474c"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "13c0a689-6599-59be-8200-889650bed2a9",
-    "question": "哪支運動隊在不同年份中包含了凱斯·麥考伊和科爾·麥考伊？",
-    "gold_answer": "德克薩斯大學長角牛隊",
+    "question_id": "990de24d-660d-54aa-a4c6-d92d770ca219",
+    "question": "這位在1970年與西瓦吉·甘納森（Sivaji Ganesan）合作的演員除了演員之外，還擔任了什麼職位？",
+    "gold_answer": "政治人物",
     "gold_doc_ids": [
-      "909709fd-a43a-5029-ae6d-87408cea2f26",
-      "23c6be59-e76b-5561-98c6-d388fcf819f8"
+      "98022615-44a8-594b-bc6c-79e5e51cadc1",
+      "89ac2f4d-60e4-5c9c-be70-86ee0d3ff717"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "245cfd74-cbaa-5590-ae9d-f86b3be0acc6",
-    "question": "亨德森行政機場於1996年更名，當時克拉克縣購買了這座機場，作為一個緩解機場，這座機場是以哪位政治人物的名字命名的？",
-    "gold_answer": "美國參議員帕特·麥卡倫",
+    "question_id": "77906e14-a1ee-52aa-8592-37f1fa1feb2b",
+    "question": "這首歌是由Jeffrey Jey、Maurizio Lobina和Gabry Ponte組成的團體創作，並於1999年1月15日發行的。",
+    "gold_answer": "藍色",
     "gold_doc_ids": [
-      "3f2a2be9-0f72-50c5-accb-6f2ba1159b44",
-      "dd7d4baa-6f56-55b6-b7ac-f3a1fc471904"
+      "ff56eae5-9d25-58b8-a2bf-b8bd3ee25405",
+      "2b6ec23a-3685-5b73-923b-b035b6c56c17"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "9b4cffcb-22b0-5593-b062-ce5df61f4a5e",
-    "question": "白海德燈塔位於2010年人口普查時人口為2,591的城鎮。",
-    "gold_answer": "聖喬治",
+    "question_id": "43b7aa4a-a5ca-527d-bb18-bd5b5d70b92f",
+    "question": "北極熊（Polar Bear）和達基里（Daiquiri）都是什麼的例子？",
+    "gold_answer": "雞尾酒",
     "gold_doc_ids": [
-      "e64ec6ac-e35b-5267-a7a6-94e275f23f21",
-      "39527df8-a3dd-5a9c-939a-3fee32ee5a29"
+      "55297153-d261-5d68-b512-4869dacd1ce7",
+      "fdddbff7-c833-5ed7-ada5-fb597a126886"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "6d2f23ea-1edb-5548-89da-bf6b25b5bf74",
-    "question": "約瑟夫·埃德加·福爾曼的第五張錄音室專輯是什麼？",
-    "gold_answer": "饑餓者",
+    "question_id": "6deae00e-48e4-585a-b724-275444c99f84",
+    "question": "誰在2007年印度泰盧固語電影中飾演女主角，該片是莉娜·維爾特米勒（Lina Wertmuller）1974年電影的非官方翻拍？",
+    "gold_answer": "Neha Sharma",
     "gold_doc_ids": [
-      "125440e6-0c1f-57b2-ac37-f05584763db8",
-      "a283a775-3f9a-522d-935b-32974b7ce4d6"
+      "05655568-efcb-5f68-a840-8decc016e53e",
+      "2008a2cb-689f-5028-a504-f20464d10d62"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "1f2f9bc5-5e5f-5dc5-8255-724d5aedbc50",
-    "question": "傑拉德·馬倫吉是在哪一年出生的？",
-    "gold_answer": "傑拉德·馬倫吉（Gerard Marenghi，生於1920年1月24日）",
+    "question_id": "9d6a3fc3-b3df-58a6-9da2-593d314f30c2",
+    "question": "誰嫁給了一位出演《馬庫斯·韋爾比醫生》（Marcus Welby, M.D.）的男士？",
+    "gold_answer": "巴布拉·史翠珊",
     "gold_doc_ids": [
-      "662a7ef2-da4e-5528-8d0b-44bb482b9b82",
-      "d9fd1ba2-ad7a-5c3f-baf3-c7dad80a1360"
+      "1528c403-babe-5afc-92e6-1a94ccf6cf71",
+      "cbcb5877-b7ac-57d1-a0f2-df83b743e251"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "267605a3-047b-5214-8fe6-19743a0bf0b8",
-    "question": "加利西亞的科洛曼的祖父是匈牙利的哪位國王？",
-    "gold_answer": "匈牙利的貝拉三世",
+    "question_id": "22f765fa-42bd-54ff-86eb-5575aa6aa61a",
+    "question": "詹姆斯·拜倫·迪恩（James Byron Dean）在他最後的主角角色中飾演了哪個角色，並因此獲得了他的第二座奧斯卡獎？",
+    "gold_answer": "牧場工人傑特·林克 (Jett Rink)",
     "gold_doc_ids": [
-      "bfeb7b30-d8c0-5500-bad1-07447a23636d",
-      "524f6177-b886-58e0-a4ca-30546e169dc5"
+      "be8d7a16-94be-52e8-8d4f-f1904947a053",
+      "6fb9363a-4800-5022-a362-3f2ac894ef18"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "46fc174c-2cbc-5997-96ac-52980115f0d4",
+    "question": "哈姆郡和漢普登運河（Hampshire and Hampden Canal）和田納西–湯比吉水道（Tennessee–Tombigbee Waterway）哪一個更長？",
+    "gold_answer": "田納西–湯比吉水道",
+    "gold_doc_ids": [
+      "3b8a3a79-64c3-5bf0-b96b-9e42a7828826",
+      "45c2cea9-10df-52be-88ed-397490290aa9"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "ecb9d970-7b5e-5d47-9acf-dbf01e97ed65",
+    "question": "「公民拉力越野車」是與哪一款在本田Verno經銷商專門販售的其他型號一起出售的？",
+    "gold_answer": "本田巴拉德",
+    "gold_doc_ids": [
+      "3967c150-73c8-5402-8e25-15890b6f9b06",
+      "ff2d1e2d-c2fc-506b-8e84-f631925e5bc2"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "e31c8685-31d8-5dbf-b27f-da3a079b9226",
+    "question": "這位於1921年11月3日出生、曾是米歇爾·梅西耶（Michèle Mercier）主演男星的演員國籍是什麼？",
+    "gold_answer": "美國人",
+    "gold_doc_ids": [
+      "5abfe7c7-954f-50ea-9bdb-6c6a06520a34",
+      "0556c414-82a2-5dda-84f2-b0a4fbb020a3"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "673312f5-4e96-5f44-9bb4-52d174bfd0cf",
+    "question": "哪個機場更繁忙，棕櫚泉國際機場（Palm Springs International Airport）還是特倫頓-默瑟機場（Trenton–Mercer Airport）？",
+    "gold_answer": "特倫頓-默瑟機場 (Trenton–Mercer Airport)",
+    "gold_doc_ids": [
+      "592d5b54-35d7-5055-9aeb-7451c1ee37a0",
+      "fc8d53e6-1850-5422-9802-38e59442ac50"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "7b092787-cce3-5b64-8ae0-7dabb481573c",
+    "question": "哪部電影最近上映，《邪惡的故事》（A Wicked Tale）還是《有兩位單身漢》（There Were Two Bachelors）？",
+    "gold_answer": "一個邪惡的故事",
+    "gold_doc_ids": [
+      "7a873f32-dd0a-5801-b8a6-2d91c7bb3afd",
+      "a1bd5371-3dd0-59d2-989f-d57e6d54bccb"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "050a281e-d5eb-5b10-bd00-3fd66b150893",
-    "question": "理查德·伯克，克蘭里卡德第四伯爵的妻子生日是什麼時候？",
-    "gold_answer": "1567",
+    "question_id": "66ead845-37d5-590a-9cf7-552312f6de3e",
+    "question": "Sirikitiya Jensen的外祖母是誰？",
+    "gold_answer": "西里吉 (Sirikit)",
     "gold_doc_ids": [
-      "baf37f2b-9891-5d6a-9227-7f7fe91df037",
-      "15f68b8c-dbe2-5835-83d2-f2e8ea1f0a8c"
+      "8c31cbeb-0c47-5509-8818-2f2271e9c3d7",
+      "309a2590-edd8-5219-a6a6-5f56a6110617"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "bdd81fc9-eb9d-5e99-bdff-4473c02d6893",
-    "question": "米歇爾·肖克（Michelle Shocked）和詹姆斯·薩卡拉（James Thackara）來自同一個國家嗎？",
+    "question_id": "b513e25c-f823-5dfc-8faa-bee7501d1d18",
+    "question": "哪部電影的導演出生得較晚，《總是有香草》（There'S Always Vanilla）還是《傳教士》（A Missionary）？",
+    "gold_answer": "總是有香草味",
+    "gold_doc_ids": [
+      "3240d663-0b90-5e42-a25f-9e9e21755653",
+      "415a3d29-c8b7-54d3-b6de-8a17f35ac3a0",
+      "8d12d5ff-0062-5083-a20b-7e68fbda3995",
+      "4f9fb70f-50bd-55bc-b14a-e9edef02a92b"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "5c134333-faeb-54b5-ab82-858df99b7323",
+    "question": "電影《過冬》（Passer L'Hiver）和《我的皮膚》（In My Skin）是來自同一個國家嗎？",
     "gold_answer": "是的",
     "gold_doc_ids": [
-      "f7b28a23-a290-5c06-a401-6d3d5e257168",
-      "dd6d8264-5ed1-57d4-9b7c-ed1cd8dc5118"
+      "db8d9554-4f6e-5b73-932b-82f7cf34a739",
+      "e3dc05fc-dfa3-5373-a8f0-f62e2f5d05e5"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "84238438-0d15-5482-a5b2-ae4d23a509d0",
-    "question": "Naja Rosa的祖父是誰？",
-    "gold_answer": "赫爾曼·大衛·科佩爾",
+    "question_id": "e458e1f1-1fec-5a0d-a302-551c492590a2",
+    "question": "哪部電影先上映，《不可思議》（Unthinkable）還是《神父的秘密》（The Priest's Secret）？",
+    "gold_answer": "神父的秘密",
     "gold_doc_ids": [
-      "b8095528-6238-5293-bfbf-d26d9488a162",
-      "46b1e2e3-cdd7-5128-aa8b-5e7e70405b97"
+      "c2250766-babb-5754-896b-d6a5b7febb3b",
+      "d35957e0-4d9a-5f89-a1a8-05b1b50449d8"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "67848589-44cf-5b24-8a45-f1ad2f11f333",
-    "question": "弗雷德里克的母親是誰？",
-    "gold_answer": "阿爾博雷亞的艾莉諾",
+    "question_id": "ef61f1f8-83be-5959-b3b4-3b387d8408b4",
+    "question": "羅戈季哈（Rogozikha）和“卡屯”（Turbaza \"Katun\"）這兩個村莊位於同一個國家嗎？",
+    "gold_answer": "是的",
     "gold_doc_ids": [
-      "4c3a8ac9-d517-5cba-b722-0653261b6d10",
-      "9bfe2f6d-4115-5779-9ef1-973a93c1901d"
+      "c99c2bf0-6d27-5e14-b3c8-38503f6d7de5",
+      "dbb893a7-4e6b-502c-9a45-ba4d506f7029"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "745e45c5-d151-547a-8735-d16852c174c5",
-    "question": "拉梅什瓦里·尼赫魯的岳父是莫漢達斯·甘地。",
-    "gold_answer": "南達拉爾·甘地",
+    "question_id": "7110f7ca-abcf-5486-ae02-7c9ed9f7a537",
+    "question": "哪部電影的導演較早去世，《高社會藍調》（High Society Blues）還是《反擊》（Counterblast）？",
+    "gold_answer": "反擊",
     "gold_doc_ids": [
-      "0f9b1205-5a15-5bed-a6d9-634c4d870f4e",
-      "3948f9c5-cd38-51ca-89a0-3b3667012898"
+      "fc0b228c-206b-53ea-8658-618fa1b97b3e",
+      "5fa21efc-8ec3-51e1-bfb8-9ab225718feb",
+      "eed1fc52-03f5-5d5d-9d92-9ccd67387cf6",
+      "8ab92748-130f-5575-95cf-dc6fa4a049dc"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "471fa11f-abb0-5151-ad2a-508f5718b2ec",
-    "question": "《Eakantham》或《Ekskul》哪部電影是最近上映的？",
-    "gold_answer": "課外活動",
+    "question_id": "d173c59e-0e89-5991-a088-3f823a0f7f6f",
+    "question": "誰比較年輕，Bob Degen 還是 Ashad Ali？",
+    "gold_answer": "阿沙德·阿里 (Ashad Ali)",
     "gold_doc_ids": [
-      "a5d148c9-36d9-5c6b-bcf6-89f4f9f728b7",
-      "7cd2ce2a-6a17-5feb-a45a-1eee72b12074"
+      "1f6ef848-dd2f-5264-a32e-a9c19e49c902",
+      "3a85ba8d-1061-50ed-84e5-7bcf1e7d791f"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "37fd0e11-0fe5-5c42-b4e0-0776632b633e",
-    "question": "《羅伯托·卡洛斯與粉紅鑽石》導演出生較早。",
-    "gold_answer": "羅伯托·卡洛斯與粉紅色鑽石",
+    "question_id": "225a86c6-3d66-5671-8cbd-f26adc171514",
+    "question": "這部電影《美國隊長：世界警察》（Team America: World Police）的導演在哪裡工作？",
+    "gold_answer": "喜劇中心",
     "gold_doc_ids": [
-      "cd16eb2e-5e27-555c-b3fc-f2bf72978f7b",
-      "7cf8e0ce-fde7-5088-b213-f9af0c7bd955",
-      "15e587f4-35d4-5bd6-88da-22c5c67f7400",
-      "f0525527-28ce-5848-8724-7bc83b108039"
+      "df152432-78b5-5bbd-a377-5d27ec291e1e",
+      "04904ec5-62d1-5577-bcf7-52125c33eba8"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "fa5bff31-d8a5-5dbf-9a39-a8d6ecdbe773",
-    "question": "奧爾良公爵費迪南德·菲利普是亨利親王的祖父嗎？",
-    "gold_answer": "奧爾良公爵費迪南德·菲利普",
+    "question_id": "70389580-970b-50e1-ac8d-8dd09374a334",
+    "question": "哪部電影的導演先去世，《城市恐懼》（Fear Over The City）還是《乞力馬扎羅的陰影》（In The Shadow Of Kilimanjaro）？",
+    "gold_answer": "城市的恐懼",
     "gold_doc_ids": [
-      "d006bb1b-4282-59ec-a0c7-d5312df380fa",
-      "7464d427-6d1e-5d67-93c0-a3411074917a"
+      "99f0d0ae-8a86-5b47-8080-fef09c9c350c",
+      "b0cd7665-f220-5fb8-bba9-a6bbfa50aba8",
+      "5fe1406f-90d3-5a08-898b-a5e44a25d104",
+      "f0917c03-536a-5527-9f27-d986d8118d4f"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "2b2de0e7-4c94-53e0-b290-ef92ebdaff2b",
-    "question": "《恐怖軍團》（Legion Of Terror）的導演早於《你比誰都好》（Tumse Achha Kaun Hai）去世。",
-    "gold_answer": "恐怖軍團",
+    "question_id": "9b0b8336-46a7-52fc-be67-b5d3a209bacd",
+    "question": "電影《我城市的歌手》（The Singer Of My City）導演的死因地點在哪裡？",
+    "gold_answer": "布宜諾斯艾利斯",
     "gold_doc_ids": [
-      "fbe05f81-9ebe-579d-8356-dc667e32711a",
-      "99a2e700-085f-5532-90c0-6db0c379545f",
-      "46edbf53-42bd-514a-9e44-6673df7aea97",
-      "0f7951c5-5d5e-51da-a81b-ab4844c7a40b"
+      "6c15091f-43d2-5edb-8059-b541251d1d45",
+      "ede5d208-1fec-5049-ab4d-0c9f68290a7e"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "922b8472-5603-55a7-971b-c27ca9639fa9",
+    "question": "Francisca Pizarro Yupanqui的父親去世的地方是在哪裡？",
+    "gold_answer": "利馬 (Lima)",
+    "gold_doc_ids": [
+      "fa961d39-29dc-51f6-8330-b7a4ae183bfc",
+      "50c80ce0-0528-5d90-a534-91fb96b79ab8"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "4bcb7e14-8161-5825-881b-141028d5c552",
+    "question": "哪部電影先上映，《狂野德州風》（Wild Texas Wind）還是《海軍妻子》（Navy Wife）？",
+    "gold_answer": "海軍妻子",
+    "gold_doc_ids": [
+      "0b548306-6bc4-5489-b31d-83b1648f8e38",
+      "10e340cc-808c-552a-b383-737b8e1e299a"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "e4be7bda-da20-51a9-8ecc-7d4a0ed8a778",
+    "question": "保琳·拉豐·戈爾（Pauline Lafon Gore）的丈夫的埋葬地點在哪裡？",
+    "gold_answer": "田納西州 (Tennessee)",
+    "gold_doc_ids": [
+      "84235bfc-cc44-5c84-848d-18b3c6bab9d2",
+      "7509a540-f4c9-5ef5-9abb-5c46f54c96c6"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "09e8fca4-1ba8-56d8-80a0-5f81fe1d7d19",
+    "question": "導演安德烈什（Andriesh）的出生地是什麼地方？",
+    "gold_answer": "第比利斯",
+    "gold_doc_ids": [
+      "185c35c0-1074-5acc-85bf-49cb54525dce",
+      "454aa8c2-c9e6-5323-b684-45a43513b085"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "6f6f15a0-035a-52f5-af1b-fd776d541d96",
+    "question": "Denis Rogers 和 Zelma Wilson 誰出生得更早？",
+    "gold_answer": "丹尼斯·羅傑斯",
+    "gold_doc_ids": [
+      "9e251ee7-5820-547e-a062-ae160e66c512",
+      "2197fad6-ca83-56da-bf63-d134223f63ce"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "7f33b0c2-aee7-5375-a159-d6d09638c21b",
+    "question": "彼得二世（Peter II），拉馬爾克伯爵（Count of La Marche）的父親的死亡日期是什麼？",
+    "gold_answer": "1362年4月6日",
+    "gold_doc_ids": [
+      "6611c272-301b-5a8d-9423-57240473a6aa",
+      "50f3965d-d072-521a-8475-558073ee8b61"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "83fce0e0-2cc8-5466-9e37-be445c35712e",
+    "question": "哪部電影的導演出生得更早，《巴維什·喬希超級英雄》（Bhavesh Joshi Superhero）還是《地獄男爵 II：黃金軍團》（Hellboy II: The Golden Army）？",
+    "gold_answer": "地獄男爵 II：金色軍團",
+    "gold_doc_ids": [
+      "618080e3-ad91-54cb-bf74-1883270f6e95",
+      "204bdfaa-d793-5350-ad7c-5392edcd9844",
+      "3b032143-ce25-504d-aa34-3b795d6167f3",
+      "4a70f37f-29dd-5b52-b139-99e6a4237d94"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "d1a699dd-9e41-55d5-995e-818a2f4f0565",
+    "question": "約翰·圖切（John Tuchet），第六代奧德利男爵（6th Baron Audley）的父親的埋葬地點在哪裡？",
+    "gold_answer": "達利修道院 (Darley Abbey)",
+    "gold_doc_ids": [
+      "e227205c-9e80-58b8-aa1d-3c612c499b77",
+      "cee161fd-c0cb-546b-9dc9-87f156e65dc0"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "0efb4e59-9bf1-5b5d-89e0-2ece479d1b90",
+    "question": "安妮·伍德維爾（Anne Woodville）的岳父是理查三世（Richard III）。",
+    "gold_answer": "肯特第一伯爵愛德蒙·格雷 (Edmund Grey, 1st Earl of Kent)",
+    "gold_doc_ids": [
+      "7c3a09a4-990b-5e02-a213-8506371fedac",
+      "69212d98-8d8b-5464-8ecd-bfbd9c7ad8d6"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"

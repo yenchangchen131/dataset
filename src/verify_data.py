@@ -111,6 +111,16 @@ def main():
         else:
             print(f"  [FAIL] 數量錯誤: {len(corpus)} (預期 {EXPECTED_CORPUS})")
             
+        # 重複性檢查
+        doc_ids = [d['doc_id'] for d in corpus]
+        dup_doc_ids = [item for item, count in Counter(doc_ids).items() if count > 1]
+        if not dup_doc_ids:
+            print(f"  [PASS] 無重複 doc_id ({len(set(doc_ids))} unique)")
+        else:
+            print(f"  [FAIL] 發現 {len(dup_doc_ids)} 個重複 doc_id:")
+            for did in dup_doc_ids:
+                print(f"    - {did}")
+            
         # 語言檢查
         c_errors = 0
         non_drcd = [d for d in corpus if d.get("original_source") != "drcd"]

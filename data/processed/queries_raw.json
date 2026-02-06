@@ -1,648 +1,646 @@
 [
   {
-    "question_id": "385b2b85-a6df-5eb7-832d-dee2fd1d7184",
-    "question": "議長的權限在哪一場革命中遭到削減?",
-    "gold_answer": "「1910年革命」",
+    "question_id": "58e6f045-3ed7-55d6-a5d7-950baed4b07a",
+    "question": "台灣於何年開始實施九年國民義務教育?",
+    "gold_answer": "1968年",
     "gold_doc_ids": [
-      "394b30e1-df18-5625-a46f-4f697ecbffb2"
+      "164a54d5-3acc-57e7-9008-cbbb15d1badd"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "1379ef19-5c57-5db3-82d9-7cdbcd0740ce",
-    "question": "哪種主義是將原有的蘇聯式體制轉化為適合南斯拉夫的模式?",
-    "gold_answer": "狄托主義",
+    "question_id": "228441b3-2799-52b0-869b-c9f33be26e7b",
+    "question": "夜柔吠陀與阿闥婆吠陀均可以最為研究哪一門語言的參考？",
+    "gold_answer": "梵語",
     "gold_doc_ids": [
-      "95e36742-c22b-5d28-8e29-f92075afc4d1"
+      "abd419c5-600c-589e-bc7f-05df368fd286"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "55d2e823-9ffc-5e1c-a07a-323ee626ae9c",
-    "question": "哪一個朝代是妃嬪位號最多的時代?",
-    "gold_answer": "北齊",
+    "question_id": "cc5e4f4d-3b89-53e2-b9d6-c16aed8cdd52",
+    "question": "高句麗在直到滅亡前多久時間其首都都在長安城？",
+    "gold_answer": "83年",
     "gold_doc_ids": [
-      "aa797e7a-6cd2-55b2-b8f2-4c05bacebf31"
+      "e1026d55-4b5d-52bd-bca2-4869c4673603"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "912020d1-7096-565a-92eb-774ddece4186",
-    "question": "為什麼當時很少科學家對通古斯大爆炸感興趣?",
-    "gold_answer": "通古斯地區過於偏遠",
+    "question_id": "80c3df46-5972-5e17-91a0-ef040856df30",
+    "question": "加拿大軍事基地溫尼伯分基地目前位於何處?",
+    "gold_answer": "溫尼伯國際機場",
     "gold_doc_ids": [
-      "92beb73f-a62c-5ce7-aea2-b79521ab97d0"
+      "d0275496-cb9d-5d10-9c34-0533858cdcdc"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "94f1ef92-24d8-5283-8b09-23ae47667525",
-    "question": "從什麼時候開始，人民幣的匯率參考對象正式為一籃子貨幣?",
-    "gold_answer": "2005年7月21日",
+    "question_id": "09b845f2-3a1a-5509-972b-a278eceb73e6",
+    "question": "哪一種稻米有8成左右的澱粉不是直鏈澱粉？",
+    "gold_answer": "秈稻",
     "gold_doc_ids": [
-      "050975b5-c0cd-5bba-bb6d-699ea30b71fa"
+      "a5a7c058-6a5b-57cd-b279-e35eb35e6126"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "ac568353-32f7-5d8e-bf72-3bd6f6dd0ed6",
-    "question": "英屬維京群島以北是哪塊海域?",
-    "gold_answer": "北大西洋",
+    "question_id": "fd2f1abe-29cd-50ca-b88b-1f0b8ef34484",
+    "question": "滬寧鐵路在哪一年的時候開始動工?",
+    "gold_answer": "1905年",
     "gold_doc_ids": [
-      "9f6d00fe-0514-501e-ac88-fde0b04c11f2"
+      "9b3d493f-1642-5136-b6cd-168e64014f8b"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "2f40e185-7601-54fb-9407-2467213ff3c9",
-    "question": "誰與織田信長稱霸日本的時代為安土桃山時代?",
-    "gold_answer": "豐臣秀吉",
+    "question_id": "3cf8e5a7-0512-592b-a7ae-7866858aa744",
+    "question": "蔣中正施行白色恐怖的原因有二，除了為了穩固政權之外，另一項原因為何?",
+    "gold_answer": "防止中國共產黨滲透",
     "gold_doc_ids": [
-      "61ce2c56-d8e8-56fa-8acf-311c52b30483"
+      "e17f306b-5dac-5295-aacf-f7cf9176ea19"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "3ec5c37c-c4a8-5662-ba40-94e6b77b70d2",
-    "question": "中央電視台高清影視頻道自2008年起轉型為哪一個頻道?",
-    "gold_answer": "中央電視台高清綜合頻道",
+    "question_id": "e75fdd88-a987-5371-a179-8fff025947d5",
+    "question": "很多人認為在什麼時間之後韓國就不再是漢江奇蹟？",
+    "gold_answer": "1997年",
     "gold_doc_ids": [
-      "b709134d-6c43-5197-a919-e89407793407"
+      "3db877db-add1-597d-9b7e-f7f3662ffaae"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "0780bbe8-1fd2-5660-9877-29f548eb8690",
-    "question": "世上已知體毛最旺盛的人種是哪一個種族?",
-    "gold_answer": "阿伊努人",
+    "question_id": "acd1f744-1ca5-5e9e-bc0c-4d715872a64d",
+    "question": "東德有多少比例的婦女在到1989年前都有參與工作？",
+    "gold_answer": "92%",
     "gold_doc_ids": [
-      "517db6fa-a911-55a8-8b11-267e3a252970"
+      "32bf09a0-7393-57b3-92c9-dbe2412cf0ab"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "9204393b-1fec-5d6f-b0c9-bc534aad9b95",
-    "question": "文中提及，也可以定義角的幾何學為哪一個?",
-    "gold_answer": "非歐幾里得幾何",
+    "question_id": "284072b1-7a71-5d50-876b-e380b3811f34",
+    "question": "經濟部的前身實業部是依據哪一條章於1912年首次設立的?",
+    "gold_answer": "《中華民國臨時政府組織大綱》",
     "gold_doc_ids": [
-      "93e72b8a-4866-55c4-928e-932d961842fd"
+      "8fce8aec-9640-5fec-9071-f0baa1d738cc"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "d8199daf-6794-51e8-ad1f-c94c46ff1ce9",
-    "question": "埃歐的赤道和極區之間在光度上的變化是由何人首次發現到的?",
-    "gold_answer": "巴納德",
+    "question_id": "72412e3a-f166-5cf0-a973-78a4256a55a8",
+    "question": "過氧乙醚在什麼樣的情況下有可能發生爆炸?",
+    "gold_answer": "乾燥",
     "gold_doc_ids": [
-      "8006cbff-e225-50ed-869f-dabe48c99f4f"
+      "b73e5337-063d-544b-9b42-dfac24025696"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "2fc12655-3223-5942-97d2-15a8d9523a82",
-    "question": "「太陽一號」是甚麼設施?",
-    "gold_answer": "集中式太陽能發電站",
+    "question_id": "05b2e67a-c9a6-5298-a026-2bbcb750367c",
+    "question": "馬祖列島的地形中有很多崩崖與險礁之成因統稱為什麼？",
+    "gold_answer": "侵蝕作用",
     "gold_doc_ids": [
-      "4b325718-3339-51cd-8496-d3682589f865"
+      "2ccfcc2b-d812-5902-a49d-7c96cbcffdc2"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "d860a7aa-5e76-57b7-9e4f-6d6048108712",
-    "question": "東羅馬帝國最主要的財政來源是什麼?",
-    "gold_answer": "商業貿易中徵收的關稅和貿易稅",
+    "question_id": "2498fa5a-33fe-5bfa-9913-88e7d97dd684",
+    "question": "在2010年行政院大陸委員會所作的的民意調查中，大多數的台灣人認為應該如何處理兩岸關係?",
+    "gold_answer": "應該維持現狀",
     "gold_doc_ids": [
-      "dd656858-0b68-54d2-9fae-f58950710629"
+      "24342d7d-74aa-5193-9af5-17a6700e7d4b"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "458501a5-d0d0-547c-b101-b23eab69e38e",
-    "question": "曼尼托巴省在一月和二月時，為什麼會暴露於來自西北的北極高壓空氣團的?",
-    "gold_answer": "大致平坦的地貌",
+    "question_id": "3ffe2cf2-8457-594a-8f29-313646bff106",
+    "question": "法蘭克福為第二大都市圈，僅次於哪個城市?",
+    "gold_answer": "萊茵魯爾",
     "gold_doc_ids": [
-      "74c06f27-fc95-5aa1-9e2d-56efe7827f8f"
+      "dc157431-bbee-57af-844d-61eab593d534"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "fb2ac4e6-e007-5b83-89c1-570a1ebadd0c",
-    "question": "於421年遣使到宋廷入貢的人為誰?",
-    "gold_answer": "陽邁一世",
+    "question_id": "019accfb-551f-5165-90c1-98f29cb80706",
+    "question": "六七暴動中，損失最多的是什麼身分的人?",
+    "gold_answer": "福建華僑",
     "gold_doc_ids": [
-      "25d3ab20-e6ae-5f22-bcd9-eb55d06851a2"
+      "e7a58ec0-9d25-55ae-9dc3-94fc561ace47"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "0a4ce7f2-0e3c-5291-817a-bb8cbd57b425",
-    "question": "大理國是何人建立的?",
-    "gold_answer": "段思平",
+    "question_id": "f254b5a8-5397-5ab7-a3ff-e2d632d2880c",
+    "question": "從1953年到1973年，以計劃經濟制度，人民幣和哪個幣別的匯率正式掛勾?",
+    "gold_answer": "美元",
     "gold_doc_ids": [
-      "6681d917-bc5a-5753-853c-c41e8c106317"
+      "8f5d1b9d-51d6-581f-8fa0-9e550371de9e"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "f189e4f5-177a-5da7-8827-2a64ab29466b",
-    "question": "孩子出生後應立即評估五項生體狀況，心跳頻率，呼吸，肌肉張力，皮膚顏色，以及哪一項?",
-    "gold_answer": "對刺激的回應",
+    "question_id": "6eceefff-f6e7-5539-a274-d66f29e51f8e",
+    "question": "外界為什麼很難瞭解死囚器官捐獻的真相?",
+    "gold_answer": "中國對處決犯人一直採取保密的措施",
     "gold_doc_ids": [
-      "45efb487-db44-5af4-b161-0746591859be"
+      "93e6bdf6-98e5-5749-9c6f-dcac506a68ce"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "41c69c08-fab5-542c-833b-38ef294ef3ab",
-    "question": "伽利略去世後他的合法繼承人是誰?",
-    "gold_answer": "文森特",
+    "question_id": "287bcba8-f651-5035-80f1-0c0e5cd20991",
+    "question": "若是誤食了金杯罌粟可能會導致水腫以及哪一種症狀?",
+    "gold_answer": "青光眼",
     "gold_doc_ids": [
-      "198fa7c7-809d-58e5-9a94-16cd51568f4a"
+      "9c309595-082b-5cda-8f48-c9c0185d8b90"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "9a74ae47-17de-59ec-b4ee-cd9f704b2643",
-    "question": "人類的夫妻關係在哪一時代逐漸確立?",
-    "gold_answer": "新石器時代",
+    "question_id": "85edbd74-afcf-522e-b49a-73b8ecc29b06",
+    "question": "南北戰爭後北方雖獲勝，但也因此付出了許多犧牲，其中哪位總統更是被支持南方的恐怖分子刺殺?",
+    "gold_answer": "林肯",
     "gold_doc_ids": [
-      "33761f9c-fb38-5d24-b2c1-474250d647ca"
+      "862e4e76-e604-5878-b878-7d40b23b6f18"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "340351ef-cf5c-5c43-8171-b0356d8c7888",
-    "question": "中國人民解放軍在1973年將什麼工作移交至公安機關?",
-    "gold_answer": "邊防具體業務工作",
+    "question_id": "f01c1c5a-89cb-5402-b41e-de2e6e79f9fe",
+    "question": "錫克教的經典是?",
+    "gold_answer": "《古魯·格蘭特·薩希卜》",
     "gold_doc_ids": [
-      "615ff319-b55e-58f0-95a9-62b4aa54d172"
+      "977bcd20-a394-524b-9838-414e8d5cfeea"
     ],
     "source_dataset": "drcd",
     "question_type": "single-hop"
   },
   {
-    "question_id": "358f37ed-7357-534b-b7c7-ab30886c0c2b",
-    "question": "What was the other single from Eric Stewart and Graham Gouldman's band's 1975 album, besides \"I'm Not in Love\"?",
-    "gold_answer": "Life Is a Minestrone",
-    "gold_doc_ids": [
-      "9ffd3359-2d2d-5022-b8ed-5986a16c2085",
-      "990225d0-0517-5b51-9473-83646ca3d8bb"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "cb63fab6-99c7-57e1-b9dc-41a2dbe31c53",
-    "question": "Who is the lead vocalist for Maroon 5's sixth studio album?",
-    "gold_answer": "Adam Levine",
-    "gold_doc_ids": [
-      "d6175e45-2ec1-59c0-ad99-17f37c4fd98b",
-      "97c8c772-bef9-5e07-a8e6-384b58417056"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "e88a13c6-7734-5e69-94c1-f7976be92709",
-    "question": "Jasmin Geljo is known for his role in a 2005 post-apocalyptic horror film written and directed by who?",
-    "gold_answer": "George A. Romero",
-    "gold_doc_ids": [
-      "3205dc30-84b5-54b2-8921-14e362a2a498",
-      "3ff52047-1b50-559f-8e01-768d526a7db6"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "004e5b34-aa09-568e-9fa0-b096b8a85e4d",
-    "question": "Father Jean-Pierre Aulneau de le Touche was killed before he could go on an expedition to Mandan, which is located in which state? ",
-    "gold_answer": "North Dakota",
-    "gold_doc_ids": [
-      "1b38d005-6dfd-50c8-a10f-d35ed43d7772",
-      "bb2d66a9-df51-550e-bb9d-f928b06be557"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "71f6c9e6-81e0-5711-a20d-b3d5c50d1a9e",
-    "question": "In which period was this German composer, pianist, organist and conductor born in 1847 active, whose work \"Wedding March\" became reference to any \"wedding march?\"",
-    "gold_answer": "early Romantic period",
-    "gold_doc_ids": [
-      "75e074ff-9c9e-5369-99b1-96e15eb51c47",
-      "4c83a5f4-97f7-5198-a49b-5c32e5d813ad"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "6e8e0cf2-4e8c-5e8f-ac29-47353540c397",
-    "question": "Which is located in India, University of the Philippines or The Northcap University?",
-    "gold_answer": "The NorthCap University",
-    "gold_doc_ids": [
-      "276de3ed-4856-5660-9710-480609e64071",
-      "034dd7a8-c5e5-52a6-9d5f-f36b0f54c77f"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "ae6938d0-49f6-56db-a563-fb6071a09d52",
-    "question": "Are Glenn Bidmead and Jacob Hoggard both guitarist?",
-    "gold_answer": "no",
-    "gold_doc_ids": [
-      "3d2de7e2-678c-5a84-86f4-2ce20774659b",
-      "72f857c2-1407-5bb0-a70f-33475d6f2232"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "fc30d5c9-62cc-52e0-aab9-13d5b4bd16cb",
-    "question": "Which auto club has sanctioned races run in California as well as Indianapolis?",
-    "gold_answer": "United States Auto Club",
-    "gold_doc_ids": [
-      "06430608-5872-5bdc-b04b-e2c9f683483a",
-      "a8367ce6-f7ab-54d2-b236-28b3494907de"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "1f6dc4ed-a3a3-564c-b61a-f43928865588",
-    "question": "Were was the Mexican state after which there is Villa Unión, Sinaloa located? ",
-    "gold_answer": "tip of the Baja California",
-    "gold_doc_ids": [
-      "519d45b6-1ce5-5de5-90f9-921020262001",
-      "e4998958-390f-510c-9f41-f1023b2f7aba"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "06fa1e1a-d488-55ad-bf9d-48c2ee73e824",
-    "question": "The not-for-profit company which owns a Mark VI monorail was assisted in bond financing by whom?",
-    "gold_answer": "The State of Nevada",
-    "gold_doc_ids": [
-      "508d198d-074f-570f-b223-2afa70b31617",
-      "ab0de328-1f8b-5d54-90e0-ed8ae27d474c"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "990de24d-660d-54aa-a4c6-d92d770ca219",
-    "question": "What title did the actor who worked with Sivaji Ganesan in a 1970 drama film other than actor?",
-    "gold_answer": "politician",
-    "gold_doc_ids": [
-      "98022615-44a8-594b-bc6c-79e5e51cadc1",
-      "89ac2f4d-60e4-5c9c-be70-86ee0d3ff717"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "77906e14-a1ee-52aa-8592-37f1fa1feb2b",
-    "question": "What song was created by the group consisting of Jeffrey Jey, Maurizio Lobina and Gabry Ponte and released on 15 January 1999?",
-    "gold_answer": "Blue",
-    "gold_doc_ids": [
-      "ff56eae5-9d25-58b8-a2bf-b8bd3ee25405",
-      "2b6ec23a-3685-5b73-923b-b035b6c56c17"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "43b7aa4a-a5ca-527d-bb18-bd5b5d70b92f",
-    "question": "The Polar Bear and Daiquiri are both examples of what?",
-    "gold_answer": "cocktails",
-    "gold_doc_ids": [
-      "55297153-d261-5d68-b512-4869dacd1ce7",
-      "fdddbff7-c833-5ed7-ada5-fb597a126886"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "6deae00e-48e4-585a-b724-275444c99f84",
-    "question": "Who played the female lead in a 2007 Indian Telugu film that was an unofficial copy of a remake of Lina Wertmuller's 1974 film?",
-    "gold_answer": "Neha Sharma",
-    "gold_doc_ids": [
-      "05655568-efcb-5f68-a840-8decc016e53e",
-      "2008a2cb-689f-5028-a504-f20464d10d62"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "9d6a3fc3-b3df-58a6-9da2-593d314f30c2",
-    "question": "Who married a man who starred in Marcus Welby, M.D.?",
-    "gold_answer": "Barbra Streisand",
-    "gold_doc_ids": [
-      "1528c403-babe-5afc-92e6-1a94ccf6cf71",
-      "cbcb5877-b7ac-57d1-a0f2-df83b743e251"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "22f765fa-42bd-54ff-86eb-5575aa6aa61a",
-    "question": "What character did James Byron Dean play in his final lead role, which earned him his second Academy Award?",
-    "gold_answer": "ranch hand Jett Rink",
-    "gold_doc_ids": [
-      "be8d7a16-94be-52e8-8d4f-f1904947a053",
-      "6fb9363a-4800-5022-a362-3f2ac894ef18"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "46fc174c-2cbc-5997-96ac-52980115f0d4",
-    "question": "Which is longer, Hampshire and Hampden Canal or Tennessee–Tombigbee Waterway?",
-    "gold_answer": "Tennessee–Tombigbee Waterway",
-    "gold_doc_ids": [
-      "3b8a3a79-64c3-5bf0-b96b-9e42a7828826",
-      "45c2cea9-10df-52be-88ed-397490290aa9"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "ecb9d970-7b5e-5d47-9acf-dbf01e97ed65",
-    "question": "The \"civic rally cross\" was sold alongside what other model sold exclusively in Japan at Honda Verno dealerships? ",
-    "gold_answer": "Honda Ballade",
-    "gold_doc_ids": [
-      "3967c150-73c8-5402-8e25-15890b6f9b06",
-      "ff2d1e2d-c2fc-506b-8e84-f631925e5bc2"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "e31c8685-31d8-5dbf-b27f-da3a079b9226",
-    "question": "What is the nationality of the actor who was a leading man of Michèle Mercier and born on November 3, 1921?",
-    "gold_answer": "American",
-    "gold_doc_ids": [
-      "5abfe7c7-954f-50ea-9bdb-6c6a06520a34",
-      "0556c414-82a2-5dda-84f2-b0a4fbb020a3"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "673312f5-4e96-5f44-9bb4-52d174bfd0cf",
-    "question": "Which airport is busier, Palm Springs International Airport or Trenton–Mercer Airport?",
-    "gold_answer": "Trenton–Mercer Airport",
-    "gold_doc_ids": [
-      "592d5b54-35d7-5055-9aeb-7451c1ee37a0",
-      "fc8d53e6-1850-5422-9802-38e59442ac50"
-    ],
-    "source_dataset": "hotpotqa",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "7b092787-cce3-5b64-8ae0-7dabb481573c",
-    "question": "Which film was released more recently, A Wicked Tale or There Were Two Bachelors?",
-    "gold_answer": "A Wicked Tale",
-    "gold_doc_ids": [
-      "7a873f32-dd0a-5801-b8a6-2d91c7bb3afd",
-      "a1bd5371-3dd0-59d2-989f-d57e6d54bccb"
-    ],
-    "source_dataset": "2wiki",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "66ead845-37d5-590a-9cf7-552312f6de3e",
-    "question": "Who is Sirikitiya Jensen's maternal grandmother?",
-    "gold_answer": "Sirikit",
-    "gold_doc_ids": [
-      "8c31cbeb-0c47-5509-8818-2f2271e9c3d7",
-      "309a2590-edd8-5219-a6a6-5f56a6110617"
-    ],
-    "source_dataset": "2wiki",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "b513e25c-f823-5dfc-8faa-bee7501d1d18",
-    "question": "Which film has the director born later, There'S Always Vanilla or A Missionary?",
-    "gold_answer": "There'S Always Vanilla",
-    "gold_doc_ids": [
-      "3240d663-0b90-5e42-a25f-9e9e21755653",
-      "415a3d29-c8b7-54d3-b6de-8a17f35ac3a0",
-      "8d12d5ff-0062-5083-a20b-7e68fbda3995",
-      "4f9fb70f-50bd-55bc-b14a-e9edef02a92b"
-    ],
-    "source_dataset": "2wiki",
-    "question_type": "multi-hop"
-  },
-  {
-    "question_id": "5c134333-faeb-54b5-ab82-858df99b7323",
-    "question": "Did the movies Passer L'Hiver and In My Skin, originate from the same country?",
+    "question_id": "107cf1a9-adb2-5b3c-b884-d0675c627738",
+    "question": "Were both Peter Duffell and Fred Niblo actors?",
     "gold_answer": "yes",
     "gold_doc_ids": [
-      "db8d9554-4f6e-5b73-932b-82f7cf34a739",
-      "e3dc05fc-dfa3-5373-a8f0-f62e2f5d05e5"
+      "99f2e5f0-f5f9-555c-90e6-141896cd4966",
+      "21c034be-86e3-5f90-8bd8-9d0e73f04816"
     ],
-    "source_dataset": "2wiki",
+    "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "e458e1f1-1fec-5a0d-a302-551c492590a2",
-    "question": "Which film came out first, Unthinkable or The Priest'S Secret?",
-    "gold_answer": "The Priest'S Secret",
+    "question_id": "c76839a3-8df6-59b0-b9a4-89146cf57d87",
+    "question": "The actor that played Gutthi on Comedy nights with Kapil Show also starred in what 2016 Punjabi film directed by Smeep Kang?",
+    "gold_answer": "Vaisakhi List",
     "gold_doc_ids": [
-      "c2250766-babb-5754-896b-d6a5b7febb3b",
-      "d35957e0-4d9a-5f89-a1a8-05b1b50449d8"
+      "d7ea6351-7ad6-58cf-af0b-287bf3ab5a27",
+      "dd6d6dee-15ba-52f2-8f43-4f5364266e16"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "27ff79b2-f638-55b3-b77a-d4f0ef66d4a1",
+    "question": "What is the birthday of the actress who was the Duchess in \"The Revengers Tragedy\"?",
+    "gold_answer": "23 November 1946",
+    "gold_doc_ids": [
+      "1daf9864-d1f8-5659-9f0f-23f2f1557e19",
+      "ddfb18a1-7551-5a6f-b8a6-4d020f76113f"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "21fb29cb-6e3e-5a9c-8fd6-6d1a464c5780",
+    "question": "Kenneth L. Gile is the Chief Operating Officer of an airline with its head office in what airport?",
+    "gold_answer": "Dubai International Airport",
+    "gold_doc_ids": [
+      "8b49926a-b15e-560c-b38f-08dd3a5d24a1",
+      "58fab5aa-0937-5db2-b2b6-9216aea8bb0b"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "700a8734-6abc-58cf-8294-17e920089521",
+    "question": "Arrêtez-moi is a film in which film genre, known for suspense and anxiety?",
+    "gold_answer": "Thriller",
+    "gold_doc_ids": [
+      "72f07e84-0fde-541a-acbb-de9eb3c1b398",
+      "54d21b34-b99d-509f-9e0e-bc7b9e9db8fe"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "99e33cdb-ab13-5ddd-8d24-a0d8b66ecbce",
+    "question": "Who was the head promotor of the singer of \"For The Good Times\"?",
+    "gold_answer": "Rikki Farr's",
+    "gold_doc_ids": [
+      "51c35d63-d796-58e4-9b51-f5ba476d4ff4",
+      "7c069bf2-eb96-51f7-b9d3-9973be5c0602"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "66b44588-6d00-586f-bf72-55a9cae6b5d4",
+    "question": "Which contest in California pays homage to an American novelist that won the Novel Prize in Literature in 1954?",
+    "gold_answer": "The Bad Hemingway Contest",
+    "gold_doc_ids": [
+      "e6a1bf34-ad31-5e8d-b4d8-0106554628d5",
+      "df1f62cc-f5c8-56bc-a325-d232617768d6"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "bf092436-7b95-56ee-bd09-83e58a3f8762",
+    "question": "Blue Dwarf is what type of online text-based role-playing game?",
+    "gold_answer": "play-by-post role-playing game",
+    "gold_doc_ids": [
+      "fcac8945-b187-51d6-b00a-3361cdbb4aaf",
+      "002a0761-a9da-5d0b-abee-33c60dab6504"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "ddf41c9a-fbea-5cc8-87c1-278dc28581c4",
+    "question": "Who was the chief executive officer of the second largest US car rental company by sales?",
+    "gold_answer": "Robert L. Stone",
+    "gold_doc_ids": [
+      "c533d9c7-0762-5ed0-8c37-5a777c8ca1e7",
+      "a440ce51-73ef-54e5-9700-fc2f30010c25"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "a6dcf9cd-857e-5073-ba8f-5b0baeb94f3e",
+    "question": "\"Clydebuilt\" is on the south bank of what river?",
+    "gold_answer": "the River Clyde",
+    "gold_doc_ids": [
+      "9a77185c-c56b-5a24-ac99-8b22e699310d",
+      "c17ad6d5-3607-53fd-9b15-8467b87dffac"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "14a238cf-f87f-5c99-8f6b-c33a06d2b60c",
+    "question": "What is the date of birth of the English inventor that developed the Richard Hornsby & Sons oil engine? ",
+    "gold_answer": "28 January 1864",
+    "gold_doc_ids": [
+      "22e9c738-525f-5bbd-b5be-04150ed822c0",
+      "794106b4-2e23-504e-957a-3805c2675024"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "0c2f6e1d-5422-5eaa-b46a-539a4eeb9972",
+    "question": "The father of Manning Marius Kimmel retired from the Navy in what year?",
+    "gold_answer": "1942",
+    "gold_doc_ids": [
+      "511942b7-6ca9-5df0-880a-22833c752a48",
+      "ed1950e0-1736-5fca-afd6-5ac2cb5a7ec7"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "18b94d3e-46e1-58e8-b123-47faa0792e85",
+    "question": "The British diver featured in Splash! specializes in what event?",
+    "gold_answer": "10-metre platform event",
+    "gold_doc_ids": [
+      "d3d69b81-c258-5fd8-9d8c-1d2925caec10",
+      "823cf2d5-593c-54f4-9e0b-7c5b6bed75ed"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "d7860413-a9f1-5490-9f54-da027a4575a2",
+    "question": "What football club was owned by the singer of \"Grow Some Funk of Your Own\"?",
+    "gold_answer": "Watford Football Club",
+    "gold_doc_ids": [
+      "f5d473ea-ab48-59ec-803d-1ad99177dde3",
+      "8e5eb06a-d948-5538-ac95-0ba2ff463811"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "ddb204e7-3fc8-545a-a844-6993cac49ac0",
+    "question": "Which Italian-American composer and librettist wrote the English language opera, Maria Golovin?",
+    "gold_answer": "Gian Carlo Menotti",
+    "gold_doc_ids": [
+      "2ce92d5e-2eda-586b-98f3-9700d7fea769",
+      "ef67e053-5414-5370-99cd-c76c306b5bbd"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "139e7ef8-bee2-5fb4-9771-51ded12b6049",
+    "question": "Who was born later, Jerry Garcia or Joe Gooch?",
+    "gold_answer": "Joe Gooch",
+    "gold_doc_ids": [
+      "a4a895ac-3f97-5f97-91b6-c2cbad035bae",
+      "a78682e6-1394-53ca-aca7-90dcf4c029e8"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "98650e36-e208-578c-827e-b7fd2372b6e2",
+    "question": "Caprice No. 5 was composed by what Italian violinist, guitarist, and composer, who was the most celebrated violin virtuoso of his time?",
+    "gold_answer": "Niccolò (or Nicolò) Paganini",
+    "gold_doc_ids": [
+      "622c974a-cb55-5f1d-a530-07e7d4c5ada2",
+      "280b875d-9627-5ab7-8b43-1be98a199e37"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "b528e9ef-fafe-5229-bd2a-84be3a4e9210",
+    "question": "Phil Ruffin, an American businessman born in 1935, owned a greyhound racing track called the Wichita Greyhound Park in which state?",
+    "gold_answer": "Kansas",
+    "gold_doc_ids": [
+      "db084622-17bf-5c6b-829a-774c33e35c96",
+      "5926de2d-35da-5239-ab18-2254d1449c8d"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "3832dedc-2e63-5b6a-a8ec-fbb66dd8dd18",
+    "question": "What city and nation was the location of the 2015 Pacific Games where the Kiribati national basketball team finished with a 0-4 record?",
+    "gold_answer": "Port Moresby, Papua New Guinea",
+    "gold_doc_ids": [
+      "3d5381f9-3553-5e55-a665-ef1074bf37a5",
+      "e81aa4ca-02ef-5583-9423-05ebe4c8feb3"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "a81014df-3786-5bda-8458-aef04ca7f7a4",
+    "question": "A wide receiver for the Toronto Argonauts played college football for a team that represents the University of Oklahoma, which belongs to what conference?",
+    "gold_answer": "Big 12 Conference",
+    "gold_doc_ids": [
+      "618cf7ee-6b44-5d09-87ae-eec4eeddc706",
+      "75e4b7eb-10fe-5ef6-bbe1-62623bc5b01c"
+    ],
+    "source_dataset": "hotpotqa",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "05a8460f-e373-54ab-93e2-36fc75d93242",
+    "question": "Who is younger, Carlos Reyté or Dominic Jacotin Gamble?",
+    "gold_answer": "Carlos Reyté",
+    "gold_doc_ids": [
+      "7acd9c7c-b99d-51a3-8543-bd62e2c1f0ef",
+      "1c9ae8f3-9c35-5011-a00a-ce9925e0a111"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "ef61f1f8-83be-5959-b3b4-3b387d8408b4",
-    "question": "Are both villages, Rogozikha and Turbaza \"Katun\", located in the same country?",
+    "question_id": "052c953a-e444-59a1-8ee9-2efddff0f265",
+    "question": "Where was the composer of film O Quatrilho born?",
+    "gold_answer": "Santo Amaro",
+    "gold_doc_ids": [
+      "5c7e07c9-c365-502f-bdc6-cebf4e622724",
+      "5e120b49-ec2e-5f2e-98c2-8ec404fd7994"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "3f7aa604-3a31-5e8d-b14e-5d65a0936df6",
+    "question": "Which film was released more recently, State Rowdy or Spy Kids 2: The Island Of Lost Dreams?",
+    "gold_answer": "Spy Kids 2: The Island Of Lost Dreams",
+    "gold_doc_ids": [
+      "92c93169-5b41-5f87-bd5d-56b677271869",
+      "5cb112f4-ca01-5196-b9dc-90c3f52fc9b4"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "139d17a1-7efa-5c27-ba9a-ae16ff93621d",
+    "question": "Are both The Bloom Of Yesterday and Fireworks (1954 Film) from the same country?",
     "gold_answer": "yes",
     "gold_doc_ids": [
-      "c99c2bf0-6d27-5e14-b3c8-38503f6d7de5",
-      "dbb893a7-4e6b-502c-9a45-ba4d506f7029"
+      "a3fe9e68-7c17-5538-87bf-760043085c91",
+      "afd8e6c0-4fb2-51d7-8f72-60ad112f8226"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "7110f7ca-abcf-5486-ae02-7c9ed9f7a537",
-    "question": "Which film has the director died earlier, High Society Blues or Counterblast?",
-    "gold_answer": "Counterblast",
+    "question_id": "edad5f11-167a-569e-9847-08885ff142b3",
+    "question": "Which film whose director was born first, Ramaiya Vastavaiya or Forbidden Temptations?",
+    "gold_answer": "Forbidden Temptations",
     "gold_doc_ids": [
-      "fc0b228c-206b-53ea-8658-618fa1b97b3e",
-      "5fa21efc-8ec3-51e1-bfb8-9ab225718feb",
-      "eed1fc52-03f5-5d5d-9d92-9ccd67387cf6",
-      "8ab92748-130f-5575-95cf-dc6fa4a049dc"
+      "2d339490-2d62-53e2-b9d1-3d50c5a53a3e",
+      "bba9ff14-81d9-5628-abac-8f3b160f5b1f",
+      "ec45b446-d078-5dfb-bab1-6847b9a6bd5c",
+      "8ca6b6ed-cca6-5e78-91a5-6facb1039291"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "d173c59e-0e89-5991-a088-3f823a0f7f6f",
-    "question": "Who is younger, Bob Degen or Ashad Ali?",
-    "gold_answer": "Ashad Ali",
+    "question_id": "5b1dab4c-d679-54c4-9d03-05c5383fe8ce",
+    "question": "What is the place of birth of Julie Berwald's mother?",
+    "gold_answer": "Helsinki",
     "gold_doc_ids": [
-      "1f6ef848-dd2f-5264-a32e-a9c19e49c902",
-      "3a85ba8d-1061-50ed-84e5-7bcf1e7d791f"
+      "ce3f05d3-ef13-5590-8f38-d786e7e46baf",
+      "42db957e-5cc5-5648-a9a2-dc7e967935aa"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "225a86c6-3d66-5671-8cbd-f26adc171514",
-    "question": "Where does the director of film Team America: World Police work at?",
-    "gold_answer": "Comedy Central",
+    "question_id": "fe1658a9-30b9-5fe2-823d-e65fe0e43f3a",
+    "question": "Who is older, James Parton or Laura Fygi?",
+    "gold_answer": "James Parton",
     "gold_doc_ids": [
-      "df152432-78b5-5bbd-a377-5d27ec291e1e",
-      "04904ec5-62d1-5577-bcf7-52125c33eba8"
+      "fd3188df-e0f8-5a4a-96eb-75731ef3807f",
+      "d9b669f1-5938-5dc6-90fc-b6cbdb666a96"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "70389580-970b-50e1-ac8d-8dd09374a334",
-    "question": "Which film has the director who died first, Fear Over The City or In The Shadow Of Kilimanjaro?",
-    "gold_answer": "Fear Over The City",
+    "question_id": "ca02cb06-ec61-56b1-b6be-efc46058e1ea",
+    "question": "Who lived longer, Philippe Solari or Stephen Jurika?",
+    "gold_answer": "Stephen Jurika",
     "gold_doc_ids": [
-      "99f0d0ae-8a86-5b47-8080-fef09c9c350c",
-      "b0cd7665-f220-5fb8-bba9-a6bbfa50aba8",
-      "5fe1406f-90d3-5a08-898b-a5e44a25d104",
-      "f0917c03-536a-5527-9f27-d986d8118d4f"
+      "d0b6dd30-9b74-59d8-9c77-3b33e737b6fc",
+      "1d5105c3-9bbf-520b-8485-99e792713431"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "9b0b8336-46a7-52fc-be67-b5d3a209bacd",
-    "question": "Where was the place of death of the director of film The Singer Of My City?",
-    "gold_answer": "Buenos Aires",
+    "question_id": "994349b3-e831-506c-9324-9db05e8c5f35",
+    "question": "Where did Duke Siegfried August In Bavaria's father die?",
+    "gold_answer": "Feldafing",
     "gold_doc_ids": [
-      "6c15091f-43d2-5edb-8059-b541251d1d45",
-      "ede5d208-1fec-5049-ab4d-0c9f68290a7e"
+      "6b843310-47dc-5fcf-8f30-993b061b6e14",
+      "153302ff-1cc8-58ee-b826-380081f90496"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "922b8472-5603-55a7-971b-c27ca9639fa9",
-    "question": "Where was the place of death of Francisca Pizarro Yupanqui's father?",
-    "gold_answer": "Lima",
+    "question_id": "e2348423-1b32-5cac-aa4a-e266d833f527",
+    "question": "When did John Iii, Count Of Nassau-Saarbrücken's father die?",
+    "gold_answer": "4 June 1545",
     "gold_doc_ids": [
-      "fa961d39-29dc-51f6-8330-b7a4ae183bfc",
-      "50c80ce0-0528-5d90-a534-91fb96b79ab8"
+      "2ec843c0-3860-55df-ab9b-95b3f28fcd9b",
+      "e806bbd6-28e4-563a-ac8b-004e5e4d20e4"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "4bcb7e14-8161-5825-881b-141028d5c552",
-    "question": "Which film came out first, Wild Texas Wind or Navy Wife?",
-    "gold_answer": "Navy Wife",
+    "question_id": "c34c29d3-0ddf-5596-b53a-eba940988dd0",
+    "question": "Which film has the director who died first, The Flesh Is Weak or One Does Not Play With Love?",
+    "gold_answer": "One Does Not Play With Love",
     "gold_doc_ids": [
-      "0b548306-6bc4-5489-b31d-83b1648f8e38",
-      "10e340cc-808c-552a-b383-737b8e1e299a"
+      "9eaaf0c3-f6c4-5d55-a061-7dca880e65d0",
+      "98d6f592-c8b2-55f5-b630-9998b5c3c9b2",
+      "da4a8c4c-c112-5535-82bb-a48abea96512",
+      "56487889-bf53-56a2-84d0-a6f41ca21b42"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "e4be7bda-da20-51a9-8ecc-7d4a0ed8a778",
-    "question": "Where was the place of burial of Pauline Lafon Gore's husband?",
-    "gold_answer": "Tennessee",
+    "question_id": "5f8eabb7-f969-5a82-a025-2d33505342d9",
+    "question": "Who is the stepfather of Peter Phillips?",
+    "gold_answer": "Timothy Laurence",
     "gold_doc_ids": [
-      "84235bfc-cc44-5c84-848d-18b3c6bab9d2",
-      "7509a540-f4c9-5ef5-9abb-5c46f54c96c6"
+      "398d805d-a986-574d-9e96-26ebf95ca0f4",
+      "bd2514fd-801e-520b-b42e-fd624014ece2"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "09e8fca4-1ba8-56d8-80a0-5f81fe1d7d19",
-    "question": "What is the place of birth of the director of film Andriesh?",
-    "gold_answer": "Tbilisi",
+    "question_id": "80551c7c-a286-5151-ad18-6e5280475eb6",
+    "question": "Where was the director of film Shoot First, Die Later born?",
+    "gold_answer": "San Ferdinando di Puglia",
     "gold_doc_ids": [
-      "185c35c0-1074-5acc-85bf-49cb54525dce",
-      "454aa8c2-c9e6-5323-b684-45a43513b085"
+      "bddbacfa-795e-5ce0-a737-1a54d1af637d",
+      "fe21c91a-7e9f-59a0-b42d-3beb29f2fb65"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "6f6f15a0-035a-52f5-af1b-fd776d541d96",
-    "question": "Who was born earlier, Denis Rogers or Zelma Wilson?",
-    "gold_answer": "Denis Rogers",
+    "question_id": "51eafe76-a2b2-579f-9b8b-eb26160ee2cb",
+    "question": "What is the place of birth of the director of film Level 16?",
+    "gold_answer": "Winnipeg, Manitoba",
     "gold_doc_ids": [
-      "9e251ee7-5820-547e-a062-ae160e66c512",
-      "2197fad6-ca83-56da-bf63-d134223f63ce"
+      "9f1c70d5-e0f0-5ffe-bfcc-099e19b1d448",
+      "126deff4-1a61-5ef7-ad3a-f0f70d3126c5"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "7f33b0c2-aee7-5375-a159-d6d09638c21b",
-    "question": "What is the date of death of Peter Ii, Count Of La Marche's father?",
-    "gold_answer": "6 April 1362",
+    "question_id": "e678fe8b-e1a3-53b4-a803-157aff8440c3",
+    "question": "When was the director of film The Car born?",
+    "gold_answer": "August 3, 1927",
     "gold_doc_ids": [
-      "6611c272-301b-5a8d-9423-57240473a6aa",
-      "50f3965d-d072-521a-8475-558073ee8b61"
+      "91e4ca26-773d-55a8-bf90-4112dae59708",
+      "9e75d2c4-4db3-5003-8d2d-79414cd35ee5"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "83fce0e0-2cc8-5466-9e37-be445c35712e",
-    "question": "Which film has the director who was born first, Bhavesh Joshi Superhero or Hellboy Ii: The Golden Army?",
-    "gold_answer": "Hellboy Ii: The Golden Army",
+    "question_id": "80526dcf-f8c6-509b-b0bf-899a9ffbf7f4",
+    "question": "What nationality is Margaret, Countess Of Anjou's husband?",
+    "gold_answer": "France",
     "gold_doc_ids": [
-      "618080e3-ad91-54cb-bf74-1883270f6e95",
-      "204bdfaa-d793-5350-ad7c-5392edcd9844",
-      "3b032143-ce25-504d-aa34-3b795d6167f3",
-      "4a70f37f-29dd-5b52-b139-99e6a4237d94"
+      "14a4436d-bd5b-58c0-9919-46a953eed3d3",
+      "2a2e3f4c-6e57-5816-9837-80897314c1af"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "d1a699dd-9e41-55d5-995e-818a2f4f0565",
-    "question": "Where was the place of burial of John Tuchet, 6Th Baron Audley's father?",
-    "gold_answer": "Darley Abbey",
+    "question_id": "3c778191-213c-500e-9b7c-1a033d25a975",
+    "question": "Which film has the director born later, Saturn In Opposition or Daughters Of Pleasure?",
+    "gold_answer": "Saturn In Opposition",
     "gold_doc_ids": [
-      "e227205c-9e80-58b8-aa1d-3c612c499b77",
-      "cee161fd-c0cb-546b-9dc9-87f156e65dc0"
+      "5429ef2b-3f98-5702-9179-e1816a312087",
+      "85d14043-8d64-55ac-8c1d-1b473473257f",
+      "2a159627-d103-5043-b15a-98ceea3a2380",
+      "ce8982a6-b82e-582a-9412-962d86894593"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "0efb4e59-9bf1-5b5d-89e0-2ece479d1b90",
-    "question": "Who is Anne Woodville's father-in-law?",
-    "gold_answer": "Edmund Grey, 1st Earl of Kent",
+    "question_id": "3fd94e01-ee8f-5c87-809e-f37ef0f0e458",
+    "question": "Were Derek Raivio and Joachim De Posada from the same country?",
+    "gold_answer": "yes",
     "gold_doc_ids": [
-      "7c3a09a4-990b-5e02-a213-8506371fedac",
-      "69212d98-8d8b-5464-8ecd-bfbd9c7ad8d6"
+      "7bb82b41-c0c8-5f31-852c-92935fe43301",
+      "96aacdab-cfa0-5740-8089-e1c3c67e4bf1"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "62dec58c-fc8f-5f5a-b55c-2567728d96ba",
+    "question": "Where was the wife of Bernabé Martí born?",
+    "gold_answer": "Barcelona",
+    "gold_doc_ids": [
+      "c1d3065a-4205-5bb7-86de-87c1f3a5dabb",
+      "7858b3ef-b891-587d-863b-9c7d2958caf4"
+    ],
+    "source_dataset": "2wiki",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "62600a3f-2b3b-5f7d-bfa1-51019372a58e",
+    "question": "Which country William Drury (Died 1558)'s father is from?",
+    "gold_answer": "England",
+    "gold_doc_ids": [
+      "20a758f8-10c9-53c8-bbda-dce752a4ffc0",
+      "afe5dfa9-191c-5759-a371-cd83fc289cf2"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"

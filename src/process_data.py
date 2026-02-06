@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 # 設定隨機種子以確保可重現性
-random.seed(11)
+random.seed(42)
 
 # 路徑設定
 BASE_DIR = Path(__file__).parent.parent

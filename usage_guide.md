@@ -2,6 +2,15 @@
 
 本文件說明如何載入、使用本資料集 (`queries.json` 與 `corpus.json`) 來進行 RAG 系統的評測。
 
+## 資料集概覽
+
+| 項目 | 數量 | 說明 |
+|------|------|------|
+| **問題總數** | 60 題 | DRCD 20 + HotpotQA 20 + 2Wiki 20 |
+| **單跳題 (Single-hop)** | 20 題 | 僅需單一文檔即可回答 |
+| **多跳題 (Multi-hop)** | 40 題 | 需整合多篇文檔資訊 |
+| **文檔總數** | 600 篇 | 含 Gold Contexts + Hard/Random Negatives |
+
 ## 1. 資料載入
 
 資料集為標準 JSON 格式，可使用 Python `json` 套件直接載入。

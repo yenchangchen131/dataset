@@ -202,7 +202,7 @@
   {
     "question_id": "107cf1a9-adb2-5b3c-b884-d0675c627738",
     "question": "Were both Peter Duffell and Fred Niblo actors?",
-    "gold_answer": "yes",
+    "gold_answer": "no",
     "gold_doc_ids": [
       "99f2e5f0-f5f9-555c-90e6-141896cd4966",
       "21c034be-86e3-5f90-8bd8-9d0e73f04816"
@@ -255,12 +255,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "99e33cdb-ab13-5ddd-8d24-a0d8b66ecbce",
-    "question": "Who was the head promotor of the singer of \"For The Good Times\"?",
-    "gold_answer": "Rikki Farr's",
+    "question_id": "7a9d11d5-cc9e-5658-a0fc-be4bdb8e8666",
+    "question": "Arabella Chapman graduated from which school that was opened as the Albany Free Academy?",
+    "gold_answer": "Albany High School",
     "gold_doc_ids": [
-      "51c35d63-d796-58e4-9b51-f5ba476d4ff4",
-      "7c069bf2-eb96-51f7-b9d3-9973be5c0602"
+      "44fe88d1-ba67-53fc-8c3d-87a6ea9c1f0c",
+      "163ddd20-08c2-568c-89dc-13aedf58ae4c"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -268,7 +268,7 @@
   {
     "question_id": "66b44588-6d00-586f-bf72-55a9cae6b5d4",
     "question": "Which contest in California pays homage to an American novelist that won the Novel Prize in Literature in 1954?",
-    "gold_answer": "The Bad Hemingway Contest",
+    "gold_answer": "The International Imitation Hemingway Competition, also called The Bad Hemingway Contest",
     "gold_doc_ids": [
       "e6a1bf34-ad31-5e8d-b4d8-0106554628d5",
       "df1f62cc-f5c8-56bc-a325-d232617768d6"
@@ -343,12 +343,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "d7860413-a9f1-5490-9f54-da027a4575a2",
-    "question": "What football club was owned by the singer of \"Grow Some Funk of Your Own\"?",
-    "gold_answer": "Watford Football Club",
+    "question_id": "dc6a3cb3-0856-5434-a3d3-2d50b06e1bb5",
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by which company?",
+    "gold_answer": "YG Entertainment",
     "gold_doc_ids": [
-      "f5d473ea-ab48-59ec-803d-1ad99177dde3",
-      "8e5eb06a-d948-5538-ac95-0ba2ff463811"
+      "874bca06-1857-558e-a832-289e9958a9b6",
+      "8f470902-1b46-5e16-aa16-4ded9e89780b"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -387,12 +387,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "b528e9ef-fafe-5229-bd2a-84be3a4e9210",
-    "question": "Phil Ruffin, an American businessman born in 1935, owned a greyhound racing track called the Wichita Greyhound Park in which state?",
-    "gold_answer": "Kansas",
+    "question_id": "9f8cea32-7eaa-5995-96e9-31019451fae6",
+    "question": "Which documentary was release first, Baghdad ER or The Ten-Year Lunch?",
+    "gold_answer": "The Ten-Year Lunch",
     "gold_doc_ids": [
-      "db084622-17bf-5c6b-829a-774c33e35c96",
-      "5926de2d-35da-5239-ab18-2254d1449c8d"
+      "0146b5dd-ef3e-5bd3-8b4a-6c0567417ac1",
+      "c10fadc7-5d2d-5ab2-b7ba-5bc1fe36c3b9"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -409,12 +409,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "a81014df-3786-5bda-8458-aef04ca7f7a4",
-    "question": "A wide receiver for the Toronto Argonauts played college football for a team that represents the University of Oklahoma, which belongs to what conference?",
-    "gold_answer": "Big 12 Conference",
+    "question_id": "2891ee25-fe8a-584d-a420-620ef37af5c7",
+    "question": "Erving Goffman was cited as higher than a literary critic on which guide?",
+    "gold_answer": "The Times Higher Education Guide",
     "gold_doc_ids": [
-      "618cf7ee-6b44-5d09-87ae-eec4eeddc706",
-      "75e4b7eb-10fe-5ef6-bbe1-62623bc5b01c"
+      "9b4e121a-4361-52b4-9097-4d983c819f55",
+      "5167e50d-06bf-537a-8bc9-58299a86fabe"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -432,7 +432,7 @@
   },
   {
     "question_id": "052c953a-e444-59a1-8ee9-2efddff0f265",
-    "question": "Where was the composer of film O Quatrilho born?",
+    "question": "Where was the singer of the theme song for the movie \"O Quatrilho\" born?",
     "gold_answer": "Santo Amaro",
     "gold_doc_ids": [
       "5c7e07c9-c365-502f-bdc6-cebf4e622724",
@@ -455,7 +455,7 @@
   {
     "question_id": "139d17a1-7efa-5c27-ba9a-ae16ff93621d",
     "question": "Are both The Bloom Of Yesterday and Fireworks (1954 Film) from the same country?",
-    "gold_answer": "yes",
+    "gold_answer": "no",
     "gold_doc_ids": [
       "a3fe9e68-7c17-5538-87bf-760043085c91",
       "afd8e6c0-4fb2-51d7-8f72-60ad112f8226"
@@ -521,12 +521,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "e2348423-1b32-5cac-aa4a-e266d833f527",
-    "question": "When did John Iii, Count Of Nassau-Saarbrücken's father die?",
-    "gold_answer": "4 June 1545",
+    "question_id": "f60361c8-2c33-5556-93f1-b36033ec0a22",
+    "question": "Who is Thomas Carew (Mp For Saltash)'s paternal grandfather?",
+    "gold_answer": "John Carew",
     "gold_doc_ids": [
-      "2ec843c0-3860-55df-ab9b-95b3f28fcd9b",
-      "e806bbd6-28e4-563a-ac8b-004e5e4d20e4"
+      "c0b87c12-ee6c-58ea-8398-65e315080ef0",
+      "95d0e3e3-865d-5910-aedf-52982dfceee6"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
@@ -613,23 +613,23 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "3fd94e01-ee8f-5c87-809e-f37ef0f0e458",
-    "question": "Were Derek Raivio and Joachim De Posada from the same country?",
-    "gold_answer": "yes",
+    "question_id": "370fb389-1009-5480-9824-b3e64342a362",
+    "question": "Are both A Fear Of Strangers and They Only Kill Their Masters from the same country?",
+    "gold_answer": "no",
     "gold_doc_ids": [
-      "7bb82b41-c0c8-5f31-852c-92935fe43301",
-      "96aacdab-cfa0-5740-8089-e1c3c67e4bf1"
+      "ab6a46ba-6148-5a5f-9b74-7cdb3a40557d",
+      "98b4e0fc-ec74-5a77-9acb-26fa005cec1d"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "62dec58c-fc8f-5f5a-b55c-2567728d96ba",
-    "question": "Where was the wife of Bernabé Martí born?",
-    "gold_answer": "Barcelona",
+    "question_id": "341a0ccb-1633-57a1-be6d-44d7a747fbb4",
+    "question": "Who is Judith Of Poland's paternal grandfather?",
+    "gold_answer": "Władysław I Herman",
     "gold_doc_ids": [
-      "c1d3065a-4205-5bb7-86de-87c1f3a5dabb",
-      "7858b3ef-b891-587d-863b-9c7d2958caf4"
+      "9ef3c72f-33d6-5846-bd99-e91d988a82a6",
+      "abf95c19-8b10-5b5d-b350-69e250202e3d"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"

@@ -202,7 +202,7 @@
   {
     "question_id": "107cf1a9-adb2-5b3c-b884-d0675c627738",
     "question": "彼得·達弗爾（Peter Duffell）和弗雷德·尼布洛（Fred Niblo）都是演員嗎？",
-    "gold_answer": "是",
+    "gold_answer": "不是",
     "gold_doc_ids": [
       "99f2e5f0-f5f9-555c-90e6-141896cd4966",
       "21c034be-86e3-5f90-8bd8-9d0e73f04816"
@@ -255,12 +255,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "99e33cdb-ab13-5ddd-8d24-a0d8b66ecbce",
-    "question": "誰是「For The Good Times」這首歌主唱的主要推廣人？",
-    "gold_answer": "Rikki Farr 的",
+    "question_id": "7a9d11d5-cc9e-5658-a0fc-be4bdb8e8666",
+    "question": "阿拉貝拉·查普曼（Arabella Chapman）畢業於哪所學校，該校最初是作為阿爾巴尼自由學院（Albany Free Academy）成立的？",
+    "gold_answer": "奧爾巴尼高中 (Albany High School)",
     "gold_doc_ids": [
-      "51c35d63-d796-58e4-9b51-f5ba476d4ff4",
-      "7c069bf2-eb96-51f7-b9d3-9973be5c0602"
+      "44fe88d1-ba67-53fc-8c3d-87a6ea9c1f0c",
+      "163ddd20-08c2-568c-89dc-13aedf58ae4c"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -268,7 +268,7 @@
   {
     "question_id": "66b44588-6d00-586f-bf72-55a9cae6b5d4",
     "question": "加州哪一項比賽是向一位於1954年獲得諾貝爾文學獎的美國小說家致敬的？",
-    "gold_answer": "壞海明威大賽 (The Bad Hemingway Contest)",
+    "gold_answer": "國際模仿海明威寫作比賽（The International Imitation Hemingway Competition），又稱為壞海明威大賽 (The Bad Hemingway Contest)",
     "gold_doc_ids": [
       "e6a1bf34-ad31-5e8d-b4d8-0106554628d5",
       "df1f62cc-f5c8-56bc-a325-d232617768d6"
@@ -279,7 +279,7 @@
   {
     "question_id": "bf092436-7b95-56ee-bd09-83e58a3f8762",
     "question": "Blue Dwarf 是哪一種類型的線上文字角色扮演遊戲？",
-    "gold_answer": "文字論壇式角色扮演遊戲 (play-by-post role-playing game)",
+    "gold_answer": "郵件式角色扮演遊戲 (play-by-post role-playing game)",
     "gold_doc_ids": [
       "fcac8945-b187-51d6-b00a-3361cdbb4aaf",
       "002a0761-a9da-5d0b-abee-33c60dab6504"
@@ -343,12 +343,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "d7860413-a9f1-5490-9f54-da027a4575a2",
-    "question": "哪一家足球俱樂部曾經由《Grow Some Funk of Your Own》的主唱擁有？",
-    "gold_answer": "沃特福德足球俱樂部 (Watford Football Club)",
+    "question_id": "dc6a3cb3-0856-5434-a3d3-2d50b06e1bb5",
+    "question": "2014 S/S 是一支韓國男孩團體的首張專輯，那是由哪家公司組成的？",
+    "gold_answer": "YG娛樂",
     "gold_doc_ids": [
-      "f5d473ea-ab48-59ec-803d-1ad99177dde3",
-      "8e5eb06a-d948-5538-ac95-0ba2ff463811"
+      "874bca06-1857-558e-a832-289e9958a9b6",
+      "8f470902-1b46-5e16-aa16-4ded9e89780b"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -387,12 +387,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "b528e9ef-fafe-5229-bd2a-84be3a4e9210",
-    "question": "菲爾·拉芬（Phil Ruffin），一位於1935年出生的美國企業家，曾擁有一座名為威奇托賽狗場（Wichita Greyhound Park）的賽狗場，這座賽狗場位於哪一州？",
-    "gold_answer": "堪薩斯（Kansas）",
+    "question_id": "9f8cea32-7eaa-5995-96e9-31019451fae6",
+    "question": "哪部紀錄片先發行，《巴格達急救》(Baghdad ER) 還是《十年午餐》(The Ten-Year Lunch)？",
+    "gold_answer": "十年午餐",
     "gold_doc_ids": [
-      "db084622-17bf-5c6b-829a-774c33e35c96",
-      "5926de2d-35da-5239-ab18-2254d1449c8d"
+      "0146b5dd-ef3e-5bd3-8b4a-6c0567417ac1",
+      "c10fadc7-5d2d-5ab2-b7ba-5bc1fe36c3b9"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -409,12 +409,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "a81014df-3786-5bda-8458-aef04ca7f7a4",
-    "question": "一名效力於多倫多阿格諾特隊（Toronto Argonauts）的外接手曾為代表奧克拉荷馬大學（University of Oklahoma）的球隊打大學美式足球，該大學隸屬於哪個聯盟？",
-    "gold_answer": "十大十二聯盟（Big 12 Conference）",
+    "question_id": "2891ee25-fe8a-584d-a420-620ef37af5c7",
+    "question": "厄文·戈夫曼（Erving Goffman）在什麼指南中被評價高於文學評論家？",
+    "gold_answer": "《泰晤士高等教育指南》",
     "gold_doc_ids": [
-      "618cf7ee-6b44-5d09-87ae-eec4eeddc706",
-      "75e4b7eb-10fe-5ef6-bbe1-62623bc5b01c"
+      "9b4e121a-4361-52b4-9097-4d983c819f55",
+      "5167e50d-06bf-537a-8bc9-58299a86fabe"
     ],
     "source_dataset": "hotpotqa",
     "question_type": "multi-hop"
@@ -432,7 +432,7 @@
   },
   {
     "question_id": "052c953a-e444-59a1-8ee9-2efddff0f265",
-    "question": "電影《O Quatrilho》的作曲家是在哪裡出生的？",
+    "question": "電影《O Quatrilho》的主題曲演唱者是在哪裡出生的？",
     "gold_answer": "聖阿馬羅 (Santo Amaro)",
     "gold_doc_ids": [
       "5c7e07c9-c365-502f-bdc6-cebf4e622724",
@@ -455,7 +455,7 @@
   {
     "question_id": "139d17a1-7efa-5c27-ba9a-ae16ff93621d",
     "question": "《昨日盛開的花朵》(The Bloom Of Yesterday) 和《煙火》(Fireworks, 1954年電影) 來自同一個國家嗎？",
-    "gold_answer": "是",
+    "gold_answer": "不是",
     "gold_doc_ids": [
       "a3fe9e68-7c17-5538-87bf-760043085c91",
       "afd8e6c0-4fb2-51d7-8f72-60ad112f8226"
@@ -521,12 +521,12 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "e2348423-1b32-5cac-aa4a-e266d833f527",
-    "question": "約翰三世·拿騷-薩爾布呂肯伯爵（John III, Count Of Nassau-Saarbrücken）的父親是什麼時候去世的？",
-    "gold_answer": "1545年6月4日",
+    "question_id": "f60361c8-2c33-5556-93f1-b36033ec0a22",
+    "question": "托馬斯·卡魯（Thomas Carew，鹽灘（Saltash）國會議員）的祖父是誰？",
+    "gold_answer": "約翰·卡魯 (John Carew)",
     "gold_doc_ids": [
-      "2ec843c0-3860-55df-ab9b-95b3f28fcd9b",
-      "e806bbd6-28e4-563a-ac8b-004e5e4d20e4"
+      "c0b87c12-ee6c-58ea-8398-65e315080ef0",
+      "95d0e3e3-865d-5910-aedf-52982dfceee6"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
@@ -613,23 +613,23 @@
     "question_type": "multi-hop"
   },
   {
-    "question_id": "3fd94e01-ee8f-5c87-809e-f37ef0f0e458",
-    "question": "Derek Raivio 和 Joachim De Posada 是來自同一個國家嗎？",
-    "gold_answer": "是",
+    "question_id": "370fb389-1009-5480-9824-b3e64342a362",
+    "question": "《對陌生人的恐懼》(A Fear Of Strangers) 和《他們只殺死他們的主人》(They Only Kill Their Masters) 是來自同一個國家嗎？",
+    "gold_answer": "不",
     "gold_doc_ids": [
-      "7bb82b41-c0c8-5f31-852c-92935fe43301",
-      "96aacdab-cfa0-5740-8089-e1c3c67e4bf1"
+      "ab6a46ba-6148-5a5f-9b74-7cdb3a40557d",
+      "98b4e0fc-ec74-5a77-9acb-26fa005cec1d"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
   },
   {
-    "question_id": "62dec58c-fc8f-5f5a-b55c-2567728d96ba",
-    "question": "貝爾納貝·馬蒂（Bernabé Martí）的妻子是在哪裡出生的？",
-    "gold_answer": "巴塞隆納 (Barcelona)",
+    "question_id": "341a0ccb-1633-57a1-be6d-44d7a747fbb4",
+    "question": "朱迪斯（Judith）是波蘭的父系祖父是誰？",
+    "gold_answer": "瓦迪斯瓦夫一世·赫爾曼 (Władysław I Herman)",
     "gold_doc_ids": [
-      "c1d3065a-4205-5bb7-86de-87c1f3a5dabb",
-      "7858b3ef-b891-587d-863b-9c7d2958caf4"
+      "9ef3c72f-33d6-5846-bd99-e91d988a82a6",
+      "abf95c19-8b10-5b5d-b350-69e250202e3d"
     ],
     "source_dataset": "2wiki",
     "question_type": "multi-hop"
